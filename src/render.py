@@ -20,7 +20,7 @@ class Surface:
         p=self.p
         self.parts=[f'''<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="{height}" viewBox="0 0 1080 {height}" role="img" aria-labelledby="title desc">
 <title id="title">{esc(title)}</title><desc id="desc">{esc(description)}</desc>
-<defs><pattern id="dots" width="12" height="12" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="0.7" fill="{p['dot']}"/></pattern></defs>
+<defs><pattern id="dots" width="12" height="12" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="0.7" opacity=".5" fill="{p['dot']}"/></pattern></defs>
 <style>
 text{{font-family:ui-monospace,SFMono-Regular,Consolas,'Liberation Mono',monospace;fill:{p['ink']}}}
 .micro{{font-size:11px;letter-spacing:1.5px;fill:{p['muted']}}}.small{{font-size:13px;fill:{p['muted']}}}
@@ -66,75 +66,38 @@ def marker(s,x,y,kind):
 
 def hero(m,theme):
     validate(m)
-    events=recent(m); repos=m['repositories']; languages=set().union(*(r['languages'] for r in repos)) if repos else set()
-    active=len({e['repo'] for e in events}); pushes=sum(e['kind']=='push' for e in events)
+    events=recent(m); repos=m['repositories']
+    languages=set().union(*(r['languages'] for r in repos)) if repos else set()
     rows=sorted(repos,key=lambda r:(r['pushedAt'] or '',r['name']),reverse=True)[:6]
-    height=785+len(rows)*62
-    s=Surface(theme,height,'HarzerHeribert / public control plane',f"Anonymous public GitHub snapshot. {len(repos)} repositories, {len(languages)} languages, {len(events)} sampled events in the displayed 30 UTC dates. Not a complete contribution history.")
-    s.text(42,49,'HH / CONTROL PLANE', 'label',color='cyan');s.text(1028,49,'PUBLIC TELEMETRY     /     01', 'micro',extra='text-anchor="end"')
-    s.line(42,68,1038,68)
-    s.text(42,109,'OPERATOR IDENTIFIER', 'micro')
-    s.text(38,175,'Harzer', 'title',76);s.text(38,248,'Heribert', 'title',76)
-    s.text(42,282,'A small public surface. Excessive instrumentation.', 'small')
-    s.text(42,306,'GITHUB / ANONYMOUS OBSERVATION ONLY', 'micro',color='cyan')
-    # A segmented ring encodes event composition, not an invented health score.
-    cx,cy=882,192
-    n=max(len(events),1)
-    for i in range(min(n,120)):
-        a=(i/min(n,120))*2*math.pi-math.pi/2
-        kind=events[i]['kind'] if events else None
-        color='orange' if kind=='release' else 'cyan' if kind=='push' else 'muted'
-        x1,y1=cx+90*math.cos(a),cy+90*math.sin(a);x2,y2=cx+101*math.cos(a),cy+101*math.sin(a)
-        s.line(round(x1,2),round(y1,2),round(x2,2),round(y2,2),color,extra='stroke-width="3"')
-    s.circle(cx,cy,75,'bg',extra=f'stroke="{s.p["line"]}"')
-    s.text(cx,cy+9,f'{len(events):02}',size=43,extra='text-anchor="middle"')
-    s.text(cx,cy+34,'EVENT SAMPLE','micro',extra='text-anchor="middle"')
-    s.text(cx,320,'30 UTC DATES / BOUNDED FEED','micro',extra='text-anchor="middle"')
-    s.line(42,345,1038,345)
-    stats=[(len(repos),'PUBLIC REPOS'),(active,'REPOS IN SAMPLE'),(len(languages),'LANGUAGES'),(pushes,'PUSH EVENTS'),(len(m['releases']),'PUBLIC RELEASES')]
-    for i,(value,label) in enumerate(stats):
-        x=42+i*204
-        if i:s.line(x-16,365,x-16,432)
-        s.text(x,404,f'{value:02}',size=38,color='cyan' if i==0 else None)
-        s.text(x,429,label,'micro')
-    s.text(42,463,'EVENT METRICS: 30 UTC DATES   /   RELEASES: CURRENT PUBLIC CATALOG','micro')
-    s.line(42,486,1038,486)
-    s.text(42,516,'01 / SYSTEM INVENTORY','label');s.text(1038,516,'LATEST PUSH FIRST  ·  LANGUAGE BYTES','micro',extra='text-anchor="end"')
+    h=550+max(len(rows),1)*49
+    s=Surface(theme,h,'HarzerHeribert / public systems',f"Anonymous public GitHub snapshot: {len(repos)} repositories, {len(languages)} languages, {len(events)} sampled events over 30 UTC dates. Not a complete activity history.")
+    s.text(48,52,'HH / PUBLIC SYSTEMS','micro',color='cyan')
+    s.text(44,146,'HarzerHeribert','title',66)
+    s.text(48,181,'Public systems.','small')
+    s.line(48,215,1032,215)
+    for i,(value,label) in enumerate([(len(repos),'REPOSITORIES'),(len(events),'PUBLIC EVENTS / 30D'),(len(languages),'LANGUAGES')]):
+        x=48+i*342
+        s.text(x,276,f'{value:02}',size=38)
+        s.text(x+83,274,label,'micro')
+    s.line(48,307,1032,307)
+    s.text(48,342,'REPOSITORIES','micro')
     for i,r in enumerate(rows):
-        y=553+i*62
-        s.text(42,y,f'{i+1:02}','micro',color='orange')
-        s.text(82,y,r['name'],size=17)
-        s.text(82,y+21,shorten(r['description'] or 'No public description supplied.',71),'small')
-        s.text(1018,y,(r['primaryLanguage'] or 'UNCLASSIFIED').upper(),'label',extra='text-anchor="end"')
-        total=sum(r['languages'].values()); pos=819
-        colors=['cyan','muted','orange','line']
-        if total:
-            for j,(_,count) in enumerate(sorted(r['languages'].items(),key=lambda kv:(-kv[1],kv[0]))):
-                width=count/total*199
-                s.rect(round(pos,2),y+14,round(width,2),3,colors[j%4]);pos+=width
-        else:s.rect(819,y+14,199,3,'line')
-        s.line(42,y+36,1038,y+36)
-    if not rows:s.text(42,553,'No anonymously resolvable public repositories.','small')
-    y=548+len(rows)*62+20
-    if len(repos)>6:s.text(42,y-3,f'SHOWING 6 / {len(repos)} REPOSITORIES','micro')
-    s.text(42,y+14,'02 / PUBLIC ACTIVITY BUS','label');s.text(1038,y+14,'LATEST 12 OBSERVED EVENTS','micro',extra='text-anchor="end"')
-    s.line(58,y+54,1018,y+54)
-    last=events[-12:]
-    for i,e in enumerate(last):
-        x=75+i*84
-        marker(s,x,y+54,e['kind'])
-        s.text(x,y+82,e['at'][5:10],'micro',extra='text-anchor="middle"')
-    if not last:s.text(65,y+80,'No events observed in this window.','small')
-    s.rect(58,y+52,14,4,'cyan',extra='class="packet"')
-    s.text(42,y+114,'● PUSH BATCH   ◇ PR / REVIEW   ◉ RELEASE   □ ISSUE / COMMENT   ✦ STAR','micro')
-    s.text(42,y+134,'GRAY NODE: REPOSITORY / REF EVENT. MOTION IS DECORATIVE, NOT LIVE TRAFFIC.','micro')
-    s.line(42,y+158,1038,y+158)
-    s.text(42,y+188,'PROFILE BUILD / '+VERSION,'micro',color='cyan')
-    s.text(42,y+211,'GENERATED  '+m['generated'].replace('T',' ').replace('Z',' UTC'),'micro')
-    s.text(42,y+232,'REVISION   '+m['revision'][:12]+'  /  GITHUB-PUBLIC','micro')
-    s.text(647,y+188,'PRIVATE INPUT / DENIED BY DESIGN','micro',color='orange')
-    s.text(647,y+211,'AUTH: NONE    ·    STATUS: SNAPSHOT','micro')
-    s.text(647,y+232,'> unnecessary machinery, operational_','small')
+        y=383+i*49
+        s.text(48,y,r['name'],size=18)
+        s.text(760,y,r['primaryLanguage'] or 'No language data','small')
+        total=sum(r['languages'].values()); primary=r['languages'].get(r['primaryLanguage'],0)
+        s.rect(946,y-8,86,2,'line')
+        if total:s.rect(946,y-8,round(86*primary/total,2),2,'cyan')
+    if not rows:s.text(48,383,'No public repositories observed.','small')
+    y=378+max(len(rows),1)*49
+    s.line(48,y,1032,y)
+    s.text(48,y+35,'RECENT PUBLIC EVENTS','micro')
+    s.line(60,y+69,1020,y+69)
+    for i,e in enumerate(events[-12:]):marker(s,72+i*85,y+69,e['kind'])
+    if not events:s.text(65,y+94,'No events observed in this window.','small')
+    s.rect(60,y+68,10,2,'cyan',extra='class="packet"')
+    s.line(48,y+111,1032,y+111)
+    s.text(48,y+139,m['generated'].replace('T',' ').replace('Z',' UTC')+'  /  '+m['revision'][:12],'micro')
     return s.end()
 
 def activity(m,theme):
@@ -143,7 +106,7 @@ def activity(m,theme):
     counts=collections.Counter(e['at'][:10] for e in events)
     peak=max(counts.values(),default=0)
     s=Surface(theme,336,'Public signal / 30 UTC dates','Daily counts from the current bounded anonymous event feed. Empty cells mean no event in this sample, not proof of inactivity. Today is partial.')
-    s.text(42,49,'03 / PUBLIC SIGNAL','label',color='cyan');s.text(1038,49,'30 UTC DATES / TODAY PARTIAL','micro',extra='text-anchor="end"')
+    s.text(42,49,'PUBLIC SIGNAL','label',color='cyan');s.text(1038,49,'30 UTC DATES / TODAY PARTIAL','micro',extra='text-anchor="end"')
     s.line(42,68,1038,68)
     s.text(42,100,f'{len(events):02} OBSERVED EVENTS','label');s.text(1038,100,f'PEAK {peak:02} / DAY','micro',extra='text-anchor="end"')
     for i in range(30):
@@ -152,8 +115,7 @@ def activity(m,theme):
         for j in range(8):s.rect(x,227-j*13,24,8,'cyan' if j<cells else 'dot',extra=f'opacity="{.5+j*.065:.3f}"' if j<cells else '')
         if count:s.text(x+12,118,count,'micro',extra='text-anchor="middle"')
     s.text(42,261,start.isoformat(),'micro');s.text(1038,261,end.isoformat(),'micro',extra='text-anchor="end"')
-    s.text(42,296,'BOUNDED API SAMPLE · NOT CONTRIBUTIONS · NO PRIVATE TOTALS · NO HISTORICAL INFERENCE','micro')
-    s.text(42,316,'Empty cells: no event in this sample. GitHub may omit or delay public events.','small')
+    s.text(42,296,'Sampled public events. Empty cells indicate no event in this sample.','micro')
     return s.end()
 
 def topology(m,theme):
@@ -161,7 +123,7 @@ def topology(m,theme):
     repos=m['repositories']; langs=sorted({r['primaryLanguage'] for r in repos if r['primaryLanguage']})
     height=max(440,180+max(len(repos),len(langs))*74)
     s=Surface(theme,height,'Public repository topology','Edges mean only that GitHub reports this primary language for this public repository. No dependency or semantic relationships are inferred.')
-    s.text(42,49,'04 / SYSTEM TOPOLOGY','label',color='cyan');s.text(1038,49,'EDGE = REPORTED PRIMARY LANGUAGE','micro',extra='text-anchor="end"')
+    s.text(42,49,'REPOSITORY / LANGUAGE','label',color='cyan');s.text(1038,49,'PUBLIC METADATA','micro',extra='text-anchor="end"')
     s.line(42,68,1038,68)
     s.text(42,102,'PUBLIC REPOSITORY','micro');s.text(773,102,'LANGUAGE CHANNEL','micro')
     positions={lang:143+i*74 for i,lang in enumerate(langs)}
@@ -170,7 +132,7 @@ def topology(m,theme):
         lang=r['primaryLanguage']
         s.rect(42,y-22,347,51)
         s.text(58,y,r['name'],size=17)
-        s.text(58,y+18,shorten(' / '.join(r['topics']) if r['topics'] else 'TOPICS / NOT DECLARED',42),'micro')
+        s.text(58,y+18,shorten(' / '.join(r['topics']) if r['topics'] else '',42),'micro')
         if lang:
             dest=positions[lang];via=464+i*33
             s.add(f'<path d="M389 {y}H{via}V{dest}H755" fill="none" stroke="{s.p["line"]}"/>')
@@ -183,7 +145,7 @@ def topology(m,theme):
         s.text(789,y+18,f'{count:02} REPOSITORY'+('' if count==1 else ' ENTRIES'),'micro')
     if not repos:s.text(42,165,'No public nodes available.','small')
     s.line(42,height-67,1038,height-67)
-    s.text(42,height-38,'RELATIONSHIPS ARE METADATA, NOT ARCHITECTURE. NO INFERRED DEPENDENCIES.','micro')
+    s.text(42,height-38,'Primary language reported by GitHub.','micro')
     return s.end()
 
 def render_all(model):

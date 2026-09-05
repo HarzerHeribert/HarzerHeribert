@@ -50,13 +50,13 @@ API source URLs, status, anonymous authentication declaration and SHA-256 respon
 
 - **Public repos:** currently anonymously listed and individually resolved owned repositories, including the profile repository itself. Not the account's private-inclusive total.
 - **Repos in sample:** distinct repositories in retained public events for the displayed 30 UTC dates.
-- **Languages:** distinct keys in the public language-byte endpoints, across indexed repositories. The inventory's segmented rail is byte proportion, not a score, skill level or completion percentage.
+- **Languages:** distinct keys in the public language-byte endpoints, across indexed repositories. The inventory's thin rail is primary-language byte proportion, not a score, skill level or completion percentage.
 - **Push events:** public `PushEvent` records in the displayed period. A batch may represent more than one commit. These are not commit counts.
 - **Public releases:** entries in the complete currently public release catalogs; includes prereleases, excludes drafts. A page/budget failure prevents publishing incomplete totals.
-- **Event instrument/bus:** supported, deduplicated, publicly flagged events for currently indexed repositories. Circle: push; diamond: PR/review; double circle: release; square: issue/comment; star: watch/star; gray: repository/ref event. Bus positions express chronological order, not time distance. It shows the latest twelve sampled events. Motion is a decorative signal.
+- **Event bus:** supported, deduplicated, publicly flagged events for currently indexed repositories. Circle: push; diamond: PR/review; double circle: release; square: issue/comment; star: watch/star; gray: repository/ref event. Bus positions express chronological order, not time distance. It shows the latest twelve sampled events. Motion is a decorative signal. The compact hero labels this as recent public events; the expanded signal view and image descriptions explain the sample limits.
 - **Public signal:** counts per UTC date, ending on the partial build date. Height is normalized to the largest sampled daily count, with actual counts printed above nonempty bars. A zero cell means no event in the sample, not proof of no public activity. The feed can be delayed, incomplete or truncated at 300 events; the graph is always labeled as a bounded sample. No 365-day history is invented.
 - **Topology:** repository → GitHub-reported primary language. Topic labels come directly from GitHub. No inferred dependency, SAP association, personal name, expertise or semantic category is introduced.
-- **Revision:** real source Git commit used by the generator, not the later asset commit. Timestamp is UTC collection start; failure never advances it. “Snapshot” deliberately replaces a misleading live LED.
+- **Revision:** real source Git commit used by the generator, not the later asset commit. Timestamp is UTC collection start; failure never advances it. No live-status or security slogans are displayed.
 
 ## Rate limits and failures
 

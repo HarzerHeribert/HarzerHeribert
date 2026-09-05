@@ -10,7 +10,7 @@ from unittest.mock import patch
 import xml.etree.ElementTree as ET
 ROOT=Path(__file__).resolve().parents[1]
 sys.path.insert(0,str(ROOT/'src'))
-from public_data import AnonymousGitHub, PolicyError, SourceError, collect, repository, route, validate, WEB, API, USER
+from public_data import AnonymousGitHub, PolicyError, SourceError, collect, repository, route, validate, release_url, WEB, API, USER
 from render import render_all
 NOW='2026-09-06T12:00:00Z'
 REV='a'*40
@@ -38,6 +38,10 @@ class ModelTests(unittest.TestCase):
             for key in ['sourceVisibility','sourceType','sourceUrl']:
                 m=fixture();del m[group][0][key]
                 with self.subTest(group=group,key=key),self.assertRaises(PolicyError):validate(m)
+    def test_release_links_cannot_escape_public_repository(self):
+        for suffix in ['../private','%2e%2e/private','v1?token=abc','v1#x','v1\\other']:
+            with self.subTest(suffix=suffix),self.assertRaises(PolicyError):release_url('fixture',WEB+'/fixture/releases/tag/'+suffix)
+        self.assertEqual(release_url('fixture',WEB+'/fixture/releases/tag/v1'),WEB+'/fixture/releases/tag/v1')
     def test_private_rejected(self):
         m=fixture();m['repositories'][0]['sourceVisibility']='private'
         with self.assertRaises(PolicyError):validate(m)
@@ -152,12 +156,13 @@ class RenderTests(unittest.TestCase):
             self.assertNotIn('href=',svg) # README handles navigation; no hidden remote references.
         self.assertNotEqual(first['hero-dark.svg'],first['hero-light.svg'])
     def test_escaping(self):
-        svg=render_all(fixture())['hero-dark.svg']
+        m=fixture();m['repositories'][0]['primaryLanguage']='A < B & \"C\"'
+        svg=render_all(m)['hero-dark.svg']
         self.assertIn('A &lt; B &amp; &quot;C&quot;',svg)
         ET.fromstring(svg)
     def test_zero_repos_empty_activity(self):
         outputs=render_all(fixture(True))
-        self.assertIn('No anonymously resolvable',outputs['hero-dark.svg'])
+        self.assertIn('No public repositories observed',outputs['hero-dark.svg'])
         self.assertIn('No events observed',outputs['hero-light.svg'])
         self.assertIn('00 OBSERVED EVENTS',outputs['activity-dark.svg'])
     def test_snapshot_golden(self):

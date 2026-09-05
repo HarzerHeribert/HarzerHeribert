@@ -17,7 +17,7 @@
 
 In this implementation, private GitHub APIs cannot be accessed by the collection transport: there is neither an accepted private route nor an authentication channel. This is a guarantee about the reviewed code and its workflow, not a claim that Python is a security sandbox. A malicious maintainer who rewrites the workflow, a compromised runner/interpreter, GitHub incorrectly returning private data anonymously, or a compromised certificate authority is outside this boundary. The public source audit is traceability, not a cryptographic attestation of GitHub's response. A fabricated offline fixture with forged receipts cannot prove anonymous resolution; the production workflow always collects fresh data and never accepts fixtures.
 
-Accordingly the console says **PRIVATE INPUT / DENIED BY DESIGN**, rather than making an unconditional “impossible” claim. No production input is taken from unrelated local repositories or authenticated GitHub account APIs. `gh` was used administratively to create this public repository, and Git is used to publish it; neither is a data collector.
+The policy is documented here rather than displayed as a status slogan on the artwork. No production input is taken from unrelated local repositories or authenticated GitHub account APIs. `gh` was used administratively to create this public repository, and Git is used to publish it; neither is a data collector.
 
 ## Retention, visibility changes and scope
 

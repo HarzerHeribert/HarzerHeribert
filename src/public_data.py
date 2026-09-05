@@ -5,7 +5,7 @@ import http.client
 import json
 import re
 import ssl
-from urllib.parse import urlencode
+from urllib.parse import urlsplit, unquote
 
 USER = 'HarzerHeribert'
 WEB = f'https://github.com/{USER}'
@@ -47,6 +47,16 @@ def route(path):
     require(any(re.fullmatch(p.replace('?', r'\?'), path) for p in roots), 'Endpoint outside public allowlist')
     require('..' not in path and '%' not in path, 'Ambiguous path')
     return path
+
+def release_url(repo, url):
+    require(isinstance(url,str), 'Missing release URL')
+    clean(url,1000)
+    parsed=urlsplit(url)
+    decoded=unquote(parsed.path)
+    require(parsed.scheme=='https' and parsed.netloc=='github.com' and not parsed.query and not parsed.fragment, 'Foreign release URL')
+    require(decoded.startswith(f'/{USER}/{repo}/releases/tag/') and len(decoded.split('/releases/tag/',1)[1])>0, 'Invalid release URL')
+    require(not any(segment in {'.','..'} for segment in decoded.split('/')) and not re.search(r'[\s<>"\\]',decoded), 'Ambiguous release path')
+    return url
 
 class AnonymousGitHub:
     def __init__(self):
@@ -139,7 +149,7 @@ def collect(client, now, revision):
             stamp(release.get('published_at'))
             tag = clean(release.get('tag_name'), 200)
             url = release.get('html_url')
-            require(isinstance(url, str) and url.startswith(repo['sourceUrl'] + '/releases/tag/'), 'Invalid release URL')
+            release_url(repo['name'], url)
             releases.append(dict(id=str(release['id']), repo=repo['name'], tag=tag,
                                  at=release['published_at'], **provenance('release', url)))
     repo_names = {r['name'] for r in repos}
@@ -226,7 +236,7 @@ def validate(model):
             if kind == 'release':
                 clean(record['tag'],200)
                 url=record['sourceUrl']
-                require(url.startswith(WEB+'/'+record['repo']+'/releases/tag/') and not re.search(r'[\s<>"\\]',url), 'Invalid release link')
+                release_url(record['repo'], url)
                 require(API+f'/repos/{USER}/{record["repo"]}/releases?per_page=100&page=1' in audited, 'Unverified release')
             else:
                 require(record['kind'] in {'push','pull_request','issue','release','star','create','delete','fork','comment','review'}, 'Invalid event kind')
