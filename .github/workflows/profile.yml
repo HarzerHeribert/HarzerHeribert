@@ -1,0 +1,68 @@
+name: Public control plane
+on:
+  schedule:
+    - cron: '23 5,17 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'src/**'
+      - 'scripts/**'
+      - 'tests/**'
+      - '.github/workflows/profile.yml'
+      - 'requirements.txt'
+permissions: {}
+concurrency:
+  group: public-profile
+  cancel-in-progress: false
+jobs:
+  build:
+    runs-on: ubuntu-24.04
+    permissions: {}
+    steps:
+      - name: Check out public source anonymously
+        env:
+          REVISION: ${{ github.sha }}
+        run: |
+          git init .
+          git remote add origin https://github.com/HarzerHeribert/HarzerHeribert.git
+          git -c credential.helper= -c http.extraHeader= fetch --depth=1 origin "$REVISION"
+          git checkout --detach FETCH_HEAD
+      - name: Unit and policy tests
+        run: env -i PATH=/usr/bin:/bin python3 -I -m unittest discover -s tests -v
+      - name: Anonymous collection and rendering
+        env:
+          REVISION: ${{ github.sha }}
+        run: env -i PATH=/usr/bin:/bin python3 -I scripts/generate.py --revision "$REVISION"
+      - name: Validate generated artifacts
+        run: env -i PATH=/usr/bin:/bin python3 -I scripts/verify.py
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
+        with:
+          name: public-console
+          path: assets/generated/
+          retention-days: 1
+  publish:
+    needs: build
+    runs-on: ubuntu-24.04
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        with:
+          persist-credentials: false
+      - uses: actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093 # v4.3.0
+        with:
+          name: public-console
+          path: assets/generated/
+      - name: Commit generated assets only
+        env:
+          GH_TOKEN: ${{ github.token }}
+          EXPECTED_REVISION: ${{ github.sha }}
+        run: |
+          test "$(git rev-parse HEAD)" = "$EXPECTED_REVISION"
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -- assets/generated/
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m 'chore: refresh public telemetry [skip ci]'
+          git -c credential.helper= -c 'credential.helper=!f() { echo username=x-access-token; echo "password=$GH_TOKEN"; }; f' push origin HEAD:main
