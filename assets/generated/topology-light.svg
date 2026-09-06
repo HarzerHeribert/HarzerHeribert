@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="550" viewBox="0 0 1080 550" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="476" viewBox="0 0 1080 476" role="img" aria-labelledby="title desc">
 <title id="title">Public repository topology</title><desc id="desc">Edges mean only that GitHub reports this primary language for this public repository. No dependency or semantic relationships are inferred.</desc>
 <defs><pattern id="dots" width="12" height="12" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="0.7" opacity=".5" fill="#ced3cd"/></pattern></defs>
 <style>
@@ -10,9 +10,9 @@ text{font-family:ui-monospace,SFMono-Regular,Consolas,'Liberation Mono',monospac
 @keyframes breathe{0%,100%{opacity:.35}50%{opacity:1}}
 @media(prefers-reduced-motion:reduce){.packet,.led,.cursor{animation:none}.packet{display:none}}
 </style>
-<rect width="1080" height="550" rx="12" fill="#f3f0e7"/>
-<rect x="1" y="1" width="1078" height="548" rx="11" fill="url(#dots)" stroke="#b9c1bf"/>
-<path d="M24 44V24H44 M1036 24H1056V44 M24 506V526H44 M1036 526H1056V506" fill="none" stroke="#006779" stroke-width="1"/>
+<rect width="1080" height="476" rx="12" fill="#f3f0e7"/>
+<rect x="1" y="1" width="1078" height="474" rx="11" fill="url(#dots)" stroke="#b9c1bf"/>
+<path d="M24 44V24H44 M1036 24H1056V44 M24 432V452H44 M1036 452H1056V432" fill="none" stroke="#006779" stroke-width="1"/>
 <text x="42" y="49" class="label" style="fill:#006779" >REPOSITORY / LANGUAGE</text>
 <text x="1038" y="49" class="micro" text-anchor="end">PUBLIC METADATA</text>
 <path d="M42 68H1038" stroke="#b9c1bf" />
@@ -21,48 +21,39 @@ text{font-family:ui-monospace,SFMono-Regular,Consolas,'Liberation Mono',monospac
 <rect x="42" y="121" width="347" height="51" fill="#e9e6dc" />
 <text x="58" y="143" class="" font-size="17" >claude-statusline</text>
 <text x="58" y="161" class="micro" ></text>
-<path d="M389 143H464V365H755" fill="none" stroke="#b9c1bf"/>
+<path d="M389 143H464V291H755" fill="none" stroke="#b9c1bf"/>
 <circle cx="389" cy="143" r="3" fill="#006779" />
-<circle cx="755" cy="365" r="4" fill="#006779" class="led"/>
-<rect x="42" y="195" width="347" height="51" fill="#e9e6dc" />
-<text x="58" y="217" class="" font-size="17" >endless-runner</text>
-<text x="58" y="235" class="micro" ></text>
-<path d="M389 217H497V143H755" fill="none" stroke="#b9c1bf"/>
-<circle cx="389" cy="217" r="3" fill="#006779" />
-<circle cx="755" cy="143" r="4" fill="#006779" class="led"/>
-<rect x="42" y="269" width="347" height="51" fill="#e9e6dc" />
-<text x="58" y="291" class="" font-size="17" >glasshouse</text>
-<text x="58" y="309" class="micro" ></text>
-<path d="M389 291H530V291H755" fill="none" stroke="#b9c1bf"/>
-<circle cx="389" cy="291" r="3" fill="#006779" />
 <circle cx="755" cy="291" r="4" fill="#006779" class="led"/>
-<rect x="42" y="343" width="347" height="51" fill="#e9e6dc" />
-<text x="58" y="365" class="" font-size="17" >HarzerHeribert</text>
-<text x="58" y="383" class="micro" ></text>
-<path d="M389 365H563V217H755" fill="none" stroke="#b9c1bf"/>
-<circle cx="389" cy="365" r="3" fill="#006779" />
+<rect x="42" y="195" width="347" height="51" fill="#e9e6dc" />
+<text x="58" y="217" class="" font-size="17" >glasshouse</text>
+<text x="58" y="235" class="micro" >ai-coding / ai-tools / claude-code / code…</text>
+<path d="M389 217H497V217H755" fill="none" stroke="#b9c1bf"/>
+<circle cx="389" cy="217" r="3" fill="#006779" />
 <circle cx="755" cy="217" r="4" fill="#006779" class="led"/>
-<rect x="42" y="417" width="347" height="51" fill="#e9e6dc" />
-<text x="58" y="439" class="" font-size="17" >webMCP</text>
-<text x="58" y="457" class="micro" >ai-agents / authorization / delegation / …</text>
-<path d="M389 439H596V439H755" fill="none" stroke="#b9c1bf"/>
-<circle cx="389" cy="439" r="3" fill="#006779" />
-<circle cx="755" cy="439" r="4" fill="#006779" class="led"/>
+<rect x="42" y="269" width="347" height="51" fill="#e9e6dc" />
+<text x="58" y="291" class="" font-size="17" >HarzerHeribert</text>
+<text x="58" y="309" class="micro" ></text>
+<path d="M389 291H530V143H755" fill="none" stroke="#b9c1bf"/>
+<circle cx="389" cy="291" r="3" fill="#006779" />
+<circle cx="755" cy="143" r="4" fill="#006779" class="led"/>
+<rect x="42" y="343" width="347" height="51" fill="#e9e6dc" />
+<text x="58" y="365" class="" font-size="17" >webMCP</text>
+<text x="58" y="383" class="micro" >ai-agents / authorization / delegation / …</text>
+<path d="M389 365H563V365H755" fill="none" stroke="#b9c1bf"/>
+<circle cx="389" cy="365" r="3" fill="#006779" />
+<circle cx="755" cy="365" r="4" fill="#006779" class="led"/>
 <rect x="773" y="121" width="265" height="51" fill="#e9e6dc" />
-<text x="789" y="143" class="" font-size="17" style="fill:#006779" >Java</text>
+<text x="789" y="143" class="" font-size="17" style="fill:#006779" >Python</text>
 <text x="789" y="161" class="micro" >01 REPOSITORY</text>
 <rect x="773" y="195" width="265" height="51" fill="#e9e6dc" />
-<text x="789" y="217" class="" font-size="17" style="fill:#006779" >Python</text>
+<text x="789" y="217" class="" font-size="17" style="fill:#006779" >Rust</text>
 <text x="789" y="235" class="micro" >01 REPOSITORY</text>
 <rect x="773" y="269" width="265" height="51" fill="#e9e6dc" />
-<text x="789" y="291" class="" font-size="17" style="fill:#006779" >Rust</text>
+<text x="789" y="291" class="" font-size="17" style="fill:#006779" >Shell</text>
 <text x="789" y="309" class="micro" >01 REPOSITORY</text>
 <rect x="773" y="343" width="265" height="51" fill="#e9e6dc" />
-<text x="789" y="365" class="" font-size="17" style="fill:#006779" >Shell</text>
+<text x="789" y="365" class="" font-size="17" style="fill:#006779" >TypeScript</text>
 <text x="789" y="383" class="micro" >01 REPOSITORY</text>
-<rect x="773" y="417" width="265" height="51" fill="#e9e6dc" />
-<text x="789" y="439" class="" font-size="17" style="fill:#006779" >TypeScript</text>
-<text x="789" y="457" class="micro" >01 REPOSITORY</text>
-<path d="M42 483H1038" stroke="#b9c1bf" />
-<text x="42" y="512" class="micro" >Primary language reported by GitHub.</text>
+<path d="M42 409H1038" stroke="#b9c1bf" />
+<text x="42" y="438" class="micro" >Primary language reported by GitHub.</text>
 </svg>

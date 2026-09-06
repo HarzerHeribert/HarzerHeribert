@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="795" viewBox="0 0 1080 795" role="img" aria-labelledby="title desc">
-<title id="title">HarzerHeribert / public systems</title><desc id="desc">Anonymous public GitHub snapshot: 5 repositories, 10 languages, 29 sampled events over 30 UTC dates. Not a complete activity history.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="746" viewBox="0 0 1080 746" role="img" aria-labelledby="title desc">
+<title id="title">HarzerHeribert / public systems</title><desc id="desc">Anonymous public GitHub snapshot: 4 repositories, 9 languages, 49 sampled events over 30 UTC dates. Not a complete activity history.</desc>
 <defs><pattern id="dots" width="12" height="12" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="0.7" opacity=".5" fill="#1a2c37"/></pattern></defs>
 <style>
 text{font-family:ui-monospace,SFMono-Regular,Consolas,'Liberation Mono',monospace;fill:#edf5f7}
@@ -10,29 +10,29 @@ text{font-family:ui-monospace,SFMono-Regular,Consolas,'Liberation Mono',monospac
 @keyframes breathe{0%,100%{opacity:.35}50%{opacity:1}}
 @media(prefers-reduced-motion:reduce){.packet,.led,.cursor{animation:none}.packet{display:none}}
 </style>
-<rect width="1080" height="795" rx="12" fill="#080d12"/>
-<rect x="1" y="1" width="1078" height="793" rx="11" fill="url(#dots)" stroke="#263844"/>
-<path d="M24 44V24H44 M1036 24H1056V44 M24 751V771H44 M1036 771H1056V751" fill="none" stroke="#64e8ea" stroke-width="1"/>
+<rect width="1080" height="746" rx="12" fill="#080d12"/>
+<rect x="1" y="1" width="1078" height="744" rx="11" fill="url(#dots)" stroke="#263844"/>
+<path d="M24 44V24H44 M1036 24H1056V44 M24 702V722H44 M1036 722H1056V702" fill="none" stroke="#64e8ea" stroke-width="1"/>
 <text x="48" y="52" class="micro" style="fill:#64e8ea" >HH / PUBLIC SYSTEMS</text>
 <text x="44" y="146" class="title" font-size="66" >HarzerHeribert</text>
 <text x="48" y="181" class="small" >Public systems.</text>
 <path d="M48 215H1032" stroke="#263844" />
-<text x="48" y="276" class="" font-size="38" >05</text>
+<text x="48" y="276" class="" font-size="38" >04</text>
 <text x="131" y="274" class="micro" >REPOSITORIES</text>
-<text x="390" y="276" class="" font-size="38" >29</text>
+<text x="390" y="276" class="" font-size="38" >49</text>
 <text x="473" y="274" class="micro" >PUBLIC EVENTS / 30D</text>
-<text x="732" y="276" class="" font-size="38" >10</text>
+<text x="732" y="276" class="" font-size="38" >09</text>
 <text x="815" y="274" class="micro" >LANGUAGES</text>
 <path d="M48 307H1032" stroke="#263844" />
 <text x="48" y="342" class="micro" >REPOSITORIES</text>
-<text x="48" y="383" class="" font-size="18" >HarzerHeribert</text>
-<text x="760" y="383" class="small" >Python</text>
+<text x="48" y="383" class="" font-size="18" >glasshouse</text>
+<text x="760" y="383" class="small" >Rust</text>
 <rect x="946" y="375" width="86" height="2" fill="#263844" />
-<rect x="946" y="375" width="86.0" height="2" fill="#64e8ea" />
-<text x="48" y="432" class="" font-size="18" >glasshouse</text>
-<text x="760" y="432" class="small" >Rust</text>
+<rect x="946" y="375" width="82.12" height="2" fill="#64e8ea" />
+<text x="48" y="432" class="" font-size="18" >HarzerHeribert</text>
+<text x="760" y="432" class="small" >Python</text>
 <rect x="946" y="424" width="86" height="2" fill="#263844" />
-<rect x="946" y="424" width="82.16" height="2" fill="#64e8ea" />
+<rect x="946" y="424" width="86.0" height="2" fill="#64e8ea" />
 <text x="48" y="481" class="" font-size="18" >webMCP</text>
 <text x="760" y="481" class="small" >TypeScript</text>
 <rect x="946" y="473" width="86" height="2" fill="#263844" />
@@ -41,26 +41,22 @@ text{font-family:ui-monospace,SFMono-Regular,Consolas,'Liberation Mono',monospac
 <text x="760" y="530" class="small" >Shell</text>
 <rect x="946" y="522" width="86" height="2" fill="#263844" />
 <rect x="946" y="522" width="86.0" height="2" fill="#64e8ea" />
-<text x="48" y="579" class="" font-size="18" >endless-runner</text>
-<text x="760" y="579" class="small" >Java</text>
-<rect x="946" y="571" width="86" height="2" fill="#263844" />
-<rect x="946" y="571" width="86.0" height="2" fill="#64e8ea" />
-<path d="M48 623H1032" stroke="#263844" />
-<text x="48" y="658" class="micro" >RECENT PUBLIC EVENTS</text>
-<path d="M60 692H1020" stroke="#263844" />
-<circle cx="72" cy="692" r="4" fill="#64e8ea" />
-<circle cx="157" cy="692" r="4" fill="#64e8ea" />
-<circle cx="242" cy="692" r="4" fill="#91a6b5" opacity=".8"/>
-<circle cx="327" cy="692" r="4" fill="#64e8ea" />
-<circle cx="412" cy="692" r="4" fill="#64e8ea" />
-<circle cx="497" cy="692" r="4" fill="#64e8ea" />
-<circle cx="582" cy="692" r="4" fill="#64e8ea" />
-<circle cx="667" cy="692" r="4" fill="#64e8ea" />
-<circle cx="752" cy="692" r="4" fill="#64e8ea" />
-<circle cx="837" cy="692" r="4" fill="#64e8ea" />
-<circle cx="922" cy="692" r="4" fill="#64e8ea" />
-<circle cx="1007" cy="692" r="4" fill="#64e8ea" />
-<rect x="60" y="691" width="10" height="2" fill="#64e8ea" class="packet"/>
-<path d="M48 734H1032" stroke="#263844" />
-<text x="48" y="762" class="micro" >2026-09-05 23:27:57 UTC  /  0b5b944c14f2</text>
+<path d="M48 574H1032" stroke="#263844" />
+<text x="48" y="609" class="micro" >RECENT PUBLIC EVENTS</text>
+<path d="M60 643H1020" stroke="#263844" />
+<circle cx="72" cy="643" r="4" fill="#64e8ea" />
+<circle cx="157" cy="643" r="4" fill="#91a6b5" opacity=".8"/>
+<circle cx="242" cy="643" r="4" fill="#64e8ea" />
+<circle cx="327" cy="643" r="4" fill="#64e8ea" />
+<circle cx="412" cy="643" r="4" fill="#64e8ea" />
+<circle cx="497" cy="643" r="4" fill="#64e8ea" />
+<circle cx="582" cy="643" r="4" fill="#64e8ea" />
+<circle cx="667" cy="643" r="4" fill="#64e8ea" />
+<circle cx="752" cy="643" r="4" fill="#64e8ea" />
+<circle cx="837" cy="643" r="4" fill="#64e8ea" />
+<circle cx="922" cy="643" r="4" fill="#64e8ea" />
+<circle cx="1007" cy="643" r="4" fill="#64e8ea" />
+<rect x="60" y="642" width="10" height="2" fill="#64e8ea" class="packet"/>
+<path d="M48 685H1032" stroke="#263844" />
+<text x="48" y="713" class="micro" >2026-09-06 05:28:31 UTC  /  f7a38d483042</text>
 </svg>
