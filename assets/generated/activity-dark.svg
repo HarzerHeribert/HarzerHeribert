@@ -16,7 +16,7 @@ text{font-family:ui-monospace,SFMono-Regular,Consolas,'Liberation Mono',monospac
 <text x="42" y="49" class="label" style="fill:#64e8ea" >PUBLIC SIGNAL</text>
 <text x="1038" y="49" class="micro" text-anchor="end">30 UTC DATES / TODAY PARTIAL</text>
 <path d="M42 68H1038" stroke="#263844" />
-<text x="42" y="100" class="label" >120 OBSERVED EVENTS</text>
+<text x="42" y="100" class="label" >127 OBSERVED EVENTS</text>
 <text x="1038" y="100" class="micro" text-anchor="end">PEAK 45 / DAY</text>
 <rect x="43.0" y="227" width="24" height="8" fill="#1a2c37" />
 <rect x="43.0" y="214" width="24" height="8" fill="#1a2c37" />
@@ -251,13 +251,13 @@ text{font-family:ui-monospace,SFMono-Regular,Consolas,'Liberation Mono',monospac
 <rect x="981.0" y="227" width="24" height="8" fill="#64e8ea" opacity="0.500"/>
 <rect x="981.0" y="214" width="24" height="8" fill="#64e8ea" opacity="0.565"/>
 <rect x="981.0" y="201" width="24" height="8" fill="#64e8ea" opacity="0.630"/>
-<rect x="981.0" y="188" width="24" height="8" fill="#1a2c37" />
+<rect x="981.0" y="188" width="24" height="8" fill="#64e8ea" opacity="0.695"/>
 <rect x="981.0" y="175" width="24" height="8" fill="#1a2c37" />
 <rect x="981.0" y="162" width="24" height="8" fill="#1a2c37" />
 <rect x="981.0" y="149" width="24" height="8" fill="#1a2c37" />
 <rect x="981.0" y="136" width="24" height="8" fill="#1a2c37" />
-<text x="993.0" y="118" class="micro" text-anchor="middle">16</text>
-<rect x="1014.5" y="227" width="24" height="8" fill="#1a2c37" />
+<text x="993.0" y="118" class="micro" text-anchor="middle">19</text>
+<rect x="1014.5" y="227" width="24" height="8" fill="#64e8ea" opacity="0.500"/>
 <rect x="1014.5" y="214" width="24" height="8" fill="#1a2c37" />
 <rect x="1014.5" y="201" width="24" height="8" fill="#1a2c37" />
 <rect x="1014.5" y="188" width="24" height="8" fill="#1a2c37" />
@@ -265,6 +265,7 @@ text{font-family:ui-monospace,SFMono-Regular,Consolas,'Liberation Mono',monospac
 <rect x="1014.5" y="162" width="24" height="8" fill="#1a2c37" />
 <rect x="1014.5" y="149" width="24" height="8" fill="#1a2c37" />
 <rect x="1014.5" y="136" width="24" height="8" fill="#1a2c37" />
+<text x="1026.5" y="118" class="micro" text-anchor="middle">4</text>
 <text x="42" y="261" class="micro" >2026-08-13</text>
 <text x="1038" y="261" class="micro" text-anchor="end">2026-09-11</text>
 <text x="42" y="296" class="micro" >Sampled public events. Empty cells indicate no event in this sample.</text>
