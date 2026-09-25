@@ -19,15 +19,6 @@
       "sourceVisibility": "public"
     },
     {
-      "at": "2026-09-03T23:43:47Z",
-      "id": "20192872990",
-      "kind": "push",
-      "repo": "webMCP",
-      "sourceType": "event",
-      "sourceUrl": "https://github.com/HarzerHeribert/webMCP",
-      "sourceVisibility": "public"
-    },
-    {
       "at": "2026-09-05T13:28:00Z",
       "id": "20347746916",
       "kind": "push",
@@ -127,26 +118,8 @@
       "sourceVisibility": "public"
     },
     {
-      "at": "2026-09-05T16:45:29Z",
-      "id": "20193814449",
-      "kind": "push",
-      "repo": "glasshouse",
-      "sourceType": "event",
-      "sourceUrl": "https://github.com/HarzerHeribert/glasshouse",
-      "sourceVisibility": "public"
-    },
-    {
       "at": "2026-09-05T17:21:10Z",
       "id": "20346151791",
-      "kind": "push",
-      "repo": "glasshouse",
-      "sourceType": "event",
-      "sourceUrl": "https://github.com/HarzerHeribert/glasshouse",
-      "sourceVisibility": "public"
-    },
-    {
-      "at": "2026-09-05T18:20:40Z",
-      "id": "20194615800",
       "kind": "push",
       "repo": "glasshouse",
       "sourceType": "event",
@@ -190,15 +163,6 @@
       "sourceVisibility": "public"
     },
     {
-      "at": "2026-09-05T20:33:36Z",
-      "id": "20192935275",
-      "kind": "push",
-      "repo": "glasshouse",
-      "sourceType": "event",
-      "sourceUrl": "https://github.com/HarzerHeribert/glasshouse",
-      "sourceVisibility": "public"
-    },
-    {
       "at": "2026-09-05T20:46:20Z",
       "id": "20201380565",
       "kind": "push",
@@ -228,15 +192,6 @@
     {
       "at": "2026-09-05T22:08:37Z",
       "id": "20370774268",
-      "kind": "push",
-      "repo": "glasshouse",
-      "sourceType": "event",
-      "sourceUrl": "https://github.com/HarzerHeribert/glasshouse",
-      "sourceVisibility": "public"
-    },
-    {
-      "at": "2026-09-05T22:18:24Z",
-      "id": "20195657036",
       "kind": "push",
       "repo": "glasshouse",
       "sourceType": "event",
@@ -309,15 +264,6 @@
     {
       "at": "2026-09-06T00:30:28Z",
       "id": "20204276900",
-      "kind": "push",
-      "repo": "glasshouse",
-      "sourceType": "event",
-      "sourceUrl": "https://github.com/HarzerHeribert/glasshouse",
-      "sourceVisibility": "public"
-    },
-    {
-      "at": "2026-09-06T00:49:42Z",
-      "id": "20199240586",
       "kind": "push",
       "repo": "glasshouse",
       "sourceType": "event",
@@ -2222,9 +2168,45 @@
       "sourceType": "event",
       "sourceUrl": "https://github.com/HarzerHeribert/glasshouse",
       "sourceVisibility": "public"
+    },
+    {
+      "at": "2026-09-24T17:41:50Z",
+      "id": "22074653848",
+      "kind": "push",
+      "repo": "glasshouse",
+      "sourceType": "event",
+      "sourceUrl": "https://github.com/HarzerHeribert/glasshouse",
+      "sourceVisibility": "public"
+    },
+    {
+      "at": "2026-09-24T20:56:10Z",
+      "id": "22095880477",
+      "kind": "push",
+      "repo": "glasshouse",
+      "sourceType": "event",
+      "sourceUrl": "https://github.com/HarzerHeribert/glasshouse",
+      "sourceVisibility": "public"
+    },
+    {
+      "at": "2026-09-24T21:58:10Z",
+      "id": "22097160743",
+      "kind": "push",
+      "repo": "glasshouse",
+      "sourceType": "event",
+      "sourceUrl": "https://github.com/HarzerHeribert/glasshouse",
+      "sourceVisibility": "public"
+    },
+    {
+      "at": "2026-09-24T22:17:37Z",
+      "id": "22094259751",
+      "kind": "push",
+      "repo": "glasshouse",
+      "sourceType": "event",
+      "sourceUrl": "https://github.com/HarzerHeribert/glasshouse",
+      "sourceVisibility": "public"
     }
   ],
-  "generated": "2026-09-24T05:31:37Z",
+  "generated": "2026-09-25T05:31:59Z",
   "releases": [
     {
       "at": "2026-09-06T05:03:01Z",
@@ -2243,6 +2225,24 @@
       "sourceUrl": "https://github.com/HarzerHeribert/glasshouse/releases/tag/v0.1.0-pre.2",
       "sourceVisibility": "public",
       "tag": "v0.1.0-pre.2"
+    },
+    {
+      "at": "2026-09-24T06:52:02Z",
+      "id": "395409890",
+      "repo": "glasshouse",
+      "sourceType": "release",
+      "sourceUrl": "https://github.com/HarzerHeribert/glasshouse/releases/tag/v0.1.0-pre.3",
+      "sourceVisibility": "public",
+      "tag": "v0.1.0-pre.3"
+    },
+    {
+      "at": "2026-09-24T21:04:38Z",
+      "id": "396078173",
+      "repo": "glasshouse",
+      "sourceType": "release",
+      "sourceUrl": "https://github.com/HarzerHeribert/glasshouse/releases/tag/v0.1.0-pre.4",
+      "sourceVisibility": "public",
+      "tag": "v0.1.0-pre.4"
     }
   ],
   "renderer": "1.0.0",
@@ -2277,16 +2277,16 @@
       "description": "Multi-agent coding orchestrator with a first-party code-mode harness. Run Claude Code, Codex and other agents with routing, project memory, live tool results and fewer inference boundaries.",
       "languages": {
         "Batchfile": 1888,
-        "HTML": 2350,
-        "JavaScript": 29842,
+        "HTML": 4386,
+        "JavaScript": 48430,
         "PowerShell": 9013,
         "Python": 493806,
-        "Rust": 19042654,
+        "Rust": 19218952,
         "Shell": 339711
       },
       "name": "glasshouse",
       "primaryLanguage": "Rust",
-      "pushedAt": "2026-09-23T11:21:51Z",
+      "pushedAt": "2026-09-24T22:17:36Z",
       "sourceType": "repository",
       "sourceUrl": "https://github.com/HarzerHeribert/glasshouse",
       "sourceVisibility": "public",
@@ -2316,7 +2316,7 @@
       },
       "name": "HarzerHeribert",
       "primaryLanguage": "Python",
-      "pushedAt": "2026-09-23T17:29:39Z",
+      "pushedAt": "2026-09-24T05:31:48Z",
       "sourceType": "repository",
       "sourceUrl": "https://github.com/HarzerHeribert/HarzerHeribert",
       "sourceVisibility": "public",
@@ -2351,7 +2351,7 @@
       ]
     }
   ],
-  "revision": "e22262575270cdc2fe47d7083a1527c47af2c27b",
+  "revision": "d4c8e98627657bfaa41a854bad33ddb3b5352e04",
   "schema": 1,
   "sources": [
     {
@@ -2362,7 +2362,7 @@
     },
     {
       "authentication": "none",
-      "sha256": "31462ea4167f8b473ac8c52022524fef353cae0f65bb2cf7bb32ac374d6c5bb9",
+      "sha256": "29d95093d5a8a141d59fd59e73db199379c6ba1c42ce870fd372b44b737e7a89",
       "status": 200,
       "url": "https://api.github.com/users/HarzerHeribert/repos?type=owner&per_page=100&page=1"
     },
@@ -2404,25 +2404,25 @@
     },
     {
       "authentication": "none",
-      "sha256": "b41f9eaf2541293591717742b61fbae03d47ab815f998c0d6c716caf0883f4e3",
+      "sha256": "9cda31c9686f0a237a9b8a3f593bb52f195888ae98c912833c238f0e8daf32c9",
       "status": 200,
       "url": "https://api.github.com/repos/HarzerHeribert/glasshouse"
     },
     {
       "authentication": "none",
-      "sha256": "09c66117115d06a9f18b7eefbd23a1f3796e8ac9e0dfdd35219d6fe5f26777d7",
+      "sha256": "4eb91c1a70f5b329390c8918dbf944029fc32f1c8d9af3c7565c406989d267fc",
       "status": 200,
       "url": "https://api.github.com/repos/HarzerHeribert/glasshouse/languages"
     },
     {
       "authentication": "none",
-      "sha256": "b87752a73d7e557e87b7cc1e161fb2d39fb8e0638e204f5feef5a462a5c78d89",
+      "sha256": "8d8798a518864f379bfc4ceaf8a7a0cc48f25df0c68dfd687d5527a463a88128",
       "status": 200,
       "url": "https://api.github.com/repos/HarzerHeribert/glasshouse/releases?per_page=100&page=1"
     },
     {
       "authentication": "none",
-      "sha256": "7b08aabe3637e339cd36278fb75ec1512e5cf636621e59add7f2b151b0831f8f",
+      "sha256": "0e8adfdf4da5a5b7c6c2dea4b233654f0bf38419ceb164a4b84b475e2a227a08",
       "status": 200,
       "url": "https://api.github.com/repos/HarzerHeribert/HarzerHeribert"
     },
@@ -2458,19 +2458,19 @@
     },
     {
       "authentication": "none",
-      "sha256": "84f20a36de5e4915d5853fefe82b1cbf6e0d0fda5d9378001c2ebb17ec8d7ab3",
+      "sha256": "0e5149dcd034903a650c3b7c54fe86b47b95d0e47ee489aced4bb799268ce6e9",
       "status": 200,
       "url": "https://api.github.com/users/HarzerHeribert/events/public?per_page=100&page=1"
     },
     {
       "authentication": "none",
-      "sha256": "24f4e12aec34c61b8f37a8a99629bcbb30340ef98c99441c93f6ace6a864e109",
+      "sha256": "e956efd918dec4c226d86de2233bf31a4ef94832519dcd227a2bb7f163a9054d",
       "status": 200,
       "url": "https://api.github.com/users/HarzerHeribert/events/public?per_page=100&page=2"
     },
     {
       "authentication": "none",
-      "sha256": "c9bf0739a4f74d1470e4975552913948439d282bbaed8d80de1806aab4f09eba",
+      "sha256": "8e33871d61d14d467c5d228ba338501377ff763f4e66fe9bcbc4897bf636bde8",
       "status": 200,
       "url": "https://api.github.com/users/HarzerHeribert/events/public?per_page=100&page=3"
     }
