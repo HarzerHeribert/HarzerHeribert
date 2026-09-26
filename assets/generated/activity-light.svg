@@ -90,7 +90,7 @@ text{font-family:ui-monospace,SFMono-Regular,Consolas,'Liberation Mono',monospac
 <rect x="311.0" y="162" width="24" height="8" fill="#ced3cd" />
 <rect x="311.0" y="149" width="24" height="8" fill="#ced3cd" />
 <rect x="311.0" y="136" width="24" height="8" fill="#ced3cd" />
-<text x="323.0" y="118" class="micro" text-anchor="middle">17</text>
+<text x="323.0" y="118" class="micro" text-anchor="middle">15</text>
 <rect x="344.5" y="227" width="24" height="8" fill="#006779" opacity="0.500"/>
 <rect x="344.5" y="214" width="24" height="8" fill="#006779" opacity="0.565"/>
 <rect x="344.5" y="201" width="24" height="8" fill="#006779" opacity="0.630"/>
@@ -265,8 +265,8 @@ text{font-family:ui-monospace,SFMono-Regular,Consolas,'Liberation Mono',monospac
 <rect x="981.0" y="162" width="24" height="8" fill="#006779" opacity="0.825"/>
 <rect x="981.0" y="149" width="24" height="8" fill="#006779" opacity="0.890"/>
 <rect x="981.0" y="136" width="24" height="8" fill="#006779" opacity="0.955"/>
-<text x="993.0" y="118" class="micro" text-anchor="middle">31</text>
-<rect x="1014.5" y="227" width="24" height="8" fill="#ced3cd" />
+<text x="993.0" y="118" class="micro" text-anchor="middle">32</text>
+<rect x="1014.5" y="227" width="24" height="8" fill="#006779" opacity="0.500"/>
 <rect x="1014.5" y="214" width="24" height="8" fill="#ced3cd" />
 <rect x="1014.5" y="201" width="24" height="8" fill="#ced3cd" />
 <rect x="1014.5" y="188" width="24" height="8" fill="#ced3cd" />
@@ -274,6 +274,7 @@ text{font-family:ui-monospace,SFMono-Regular,Consolas,'Liberation Mono',monospac
 <rect x="1014.5" y="162" width="24" height="8" fill="#ced3cd" />
 <rect x="1014.5" y="149" width="24" height="8" fill="#ced3cd" />
 <rect x="1014.5" y="136" width="24" height="8" fill="#ced3cd" />
+<text x="1026.5" y="118" class="micro" text-anchor="middle">1</text>
 <text x="42" y="261" class="micro" >2026-08-28</text>
 <text x="1038" y="261" class="micro" text-anchor="end">2026-09-26</text>
 <text x="42" y="296" class="micro" >Sampled public events. Empty cells indicate no event in this sample.</text>
