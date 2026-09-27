@@ -31,17 +31,17 @@ text{font-family:ui-monospace,SFMono-Regular,Consolas,'Liberation Mono',monospac
 <circle cx="389" cy="217" r="3" fill="#006779" />
 <circle cx="755" cy="291" r="4" fill="#006779" class="led"/>
 <rect x="42" y="269" width="347" height="51" fill="#e9e6dc" />
-<text x="58" y="291" class="" font-size="17" >glasshouse</text>
-<text x="58" y="309" class="micro" >ai-coding / ai-tools / claude-code / code…</text>
-<path d="M389 291H530V217H755" fill="none" stroke="#b9c1bf"/>
+<text x="58" y="291" class="" font-size="17" >HarzerHeribert</text>
+<text x="58" y="309" class="micro" ></text>
+<path d="M389 291H530V143H755" fill="none" stroke="#b9c1bf"/>
 <circle cx="389" cy="291" r="3" fill="#006779" />
-<circle cx="755" cy="217" r="4" fill="#006779" class="led"/>
-<rect x="42" y="343" width="347" height="51" fill="#e9e6dc" />
-<text x="58" y="365" class="" font-size="17" >HarzerHeribert</text>
-<text x="58" y="383" class="micro" ></text>
-<path d="M389 365H563V143H755" fill="none" stroke="#b9c1bf"/>
-<circle cx="389" cy="365" r="3" fill="#006779" />
 <circle cx="755" cy="143" r="4" fill="#006779" class="led"/>
+<rect x="42" y="343" width="347" height="51" fill="#e9e6dc" />
+<text x="58" y="365" class="" font-size="17" >sterna</text>
+<text x="58" y="383" class="micro" >ai-coding / ai-tools / claude-code / code…</text>
+<path d="M389 365H563V217H755" fill="none" stroke="#b9c1bf"/>
+<circle cx="389" cy="365" r="3" fill="#006779" />
+<circle cx="755" cy="217" r="4" fill="#006779" class="led"/>
 <rect x="42" y="417" width="347" height="51" fill="#e9e6dc" />
 <text x="58" y="439" class="" font-size="17" >webMCP</text>
 <text x="58" y="457" class="micro" >ai-agents / authorization / delegation / …</text>
