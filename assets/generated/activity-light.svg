@@ -177,10 +177,10 @@ text{font-family:ui-monospace,SFMono-Regular,Consolas,'Liberation Mono',monospac
 <rect x="679.5" y="201" width="24" height="8" fill="#006779" opacity="0.630"/>
 <rect x="679.5" y="188" width="24" height="8" fill="#006779" opacity="0.695"/>
 <rect x="679.5" y="175" width="24" height="8" fill="#006779" opacity="0.760"/>
-<rect x="679.5" y="162" width="24" height="8" fill="#006779" opacity="0.825"/>
+<rect x="679.5" y="162" width="24" height="8" fill="#ced3cd" />
 <rect x="679.5" y="149" width="24" height="8" fill="#ced3cd" />
 <rect x="679.5" y="136" width="24" height="8" fill="#ced3cd" />
-<text x="691.5" y="118" class="micro" text-anchor="middle">30</text>
+<text x="691.5" y="118" class="micro" text-anchor="middle">28</text>
 <rect x="713.0" y="227" width="24" height="8" fill="#006779" opacity="0.500"/>
 <rect x="713.0" y="214" width="24" height="8" fill="#ced3cd" />
 <rect x="713.0" y="201" width="24" height="8" fill="#ced3cd" />
@@ -244,7 +244,7 @@ text{font-family:ui-monospace,SFMono-Regular,Consolas,'Liberation Mono',monospac
 <rect x="914.0" y="149" width="24" height="8" fill="#ced3cd" />
 <rect x="914.0" y="136" width="24" height="8" fill="#ced3cd" />
 <text x="926.0" y="118" class="micro" text-anchor="middle">12</text>
-<rect x="947.5" y="227" width="24" height="8" fill="#ced3cd" />
+<rect x="947.5" y="227" width="24" height="8" fill="#006779" opacity="0.500"/>
 <rect x="947.5" y="214" width="24" height="8" fill="#ced3cd" />
 <rect x="947.5" y="201" width="24" height="8" fill="#ced3cd" />
 <rect x="947.5" y="188" width="24" height="8" fill="#ced3cd" />
@@ -252,6 +252,7 @@ text{font-family:ui-monospace,SFMono-Regular,Consolas,'Liberation Mono',monospac
 <rect x="947.5" y="162" width="24" height="8" fill="#ced3cd" />
 <rect x="947.5" y="149" width="24" height="8" fill="#ced3cd" />
 <rect x="947.5" y="136" width="24" height="8" fill="#ced3cd" />
+<text x="959.5" y="118" class="micro" text-anchor="middle">2</text>
 <rect x="981.0" y="227" width="24" height="8" fill="#ced3cd" />
 <rect x="981.0" y="214" width="24" height="8" fill="#ced3cd" />
 <rect x="981.0" y="201" width="24" height="8" fill="#ced3cd" />
