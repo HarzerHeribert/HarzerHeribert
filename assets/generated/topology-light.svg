@@ -59,7 +59,7 @@ text{font-family:ui-monospace,SFMono-Regular,Consolas,'Liberation Mono',monospac
 <circle cx="389" cy="587" r="3" fill="#006779" />
 <circle cx="755" cy="439" r="4" fill="#006779" class="led"/>
 <rect x="773" y="121" width="265" height="51" fill="#e9e6dc" />
-<text x="789" y="143" class="" font-size="17" style="fill:#006779" >Objective-C++</text>
+<text x="789" y="143" class="" font-size="17" style="fill:#006779" >C++</text>
 <text x="789" y="161" class="micro" >01 REPOSITORY</text>
 <rect x="773" y="195" width="265" height="51" fill="#e9e6dc" />
 <text x="789" y="217" class="" font-size="17" style="fill:#006779" >Python</text>

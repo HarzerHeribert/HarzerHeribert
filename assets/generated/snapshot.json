@@ -28,26 +28,8 @@
       "sourceVisibility": "public"
     },
     {
-      "at": "2026-09-27T08:23:28Z",
-      "id": "22305434375",
-      "kind": "push",
-      "repo": "sterna",
-      "sourceType": "event",
-      "sourceUrl": "https://github.com/HarzerHeribert/sterna",
-      "sourceVisibility": "public"
-    },
-    {
       "at": "2026-09-27T09:07:05Z",
       "id": "22312115401",
-      "kind": "push",
-      "repo": "sterna",
-      "sourceType": "event",
-      "sourceUrl": "https://github.com/HarzerHeribert/sterna",
-      "sourceVisibility": "public"
-    },
-    {
-      "at": "2026-09-27T09:36:20Z",
-      "id": "22309716784",
       "kind": "push",
       "repo": "sterna",
       "sourceType": "event",
@@ -82,60 +64,6 @@
       "sourceVisibility": "public"
     },
     {
-      "at": "2026-09-27T13:24:13Z",
-      "id": "22302702207",
-      "kind": "push",
-      "repo": "sterna",
-      "sourceType": "event",
-      "sourceUrl": "https://github.com/HarzerHeribert/sterna",
-      "sourceVisibility": "public"
-    },
-    {
-      "at": "2026-09-27T13:38:08Z",
-      "id": "22303473133",
-      "kind": "push",
-      "repo": "sterna",
-      "sourceType": "event",
-      "sourceUrl": "https://github.com/HarzerHeribert/sterna",
-      "sourceVisibility": "public"
-    },
-    {
-      "at": "2026-09-27T13:43:40Z",
-      "id": "22303781071",
-      "kind": "push",
-      "repo": "sterna",
-      "sourceType": "event",
-      "sourceUrl": "https://github.com/HarzerHeribert/sterna",
-      "sourceVisibility": "public"
-    },
-    {
-      "at": "2026-09-27T13:53:00Z",
-      "id": "22304302786",
-      "kind": "push",
-      "repo": "sterna",
-      "sourceType": "event",
-      "sourceUrl": "https://github.com/HarzerHeribert/sterna",
-      "sourceVisibility": "public"
-    },
-    {
-      "at": "2026-09-27T14:07:02Z",
-      "id": "22305078807",
-      "kind": "push",
-      "repo": "sterna",
-      "sourceType": "event",
-      "sourceUrl": "https://github.com/HarzerHeribert/sterna",
-      "sourceVisibility": "public"
-    },
-    {
-      "at": "2026-09-27T14:12:25Z",
-      "id": "22305379990",
-      "kind": "push",
-      "repo": "sterna",
-      "sourceType": "event",
-      "sourceUrl": "https://github.com/HarzerHeribert/sterna",
-      "sourceVisibility": "public"
-    },
-    {
       "at": "2026-09-27T14:21:02Z",
       "id": "22329365981",
       "kind": "push",
@@ -147,15 +75,6 @@
     {
       "at": "2026-09-27T15:38:52Z",
       "id": "22331757928",
-      "kind": "push",
-      "repo": "sterna",
-      "sourceType": "event",
-      "sourceUrl": "https://github.com/HarzerHeribert/sterna",
-      "sourceVisibility": "public"
-    },
-    {
-      "at": "2026-09-27T15:44:04Z",
-      "id": "22310607080",
       "kind": "push",
       "repo": "sterna",
       "sourceType": "event",
@@ -980,9 +899,18 @@
       "sourceType": "event",
       "sourceUrl": "https://github.com/HarzerHeribert/mcp-voice-simulator",
       "sourceVisibility": "public"
+    },
+    {
+      "at": "2026-10-08T16:26:39Z",
+      "id": "23390817919",
+      "kind": "push",
+      "repo": "midihands_m4l",
+      "sourceType": "event",
+      "sourceUrl": "https://github.com/HarzerHeribert/midihands_m4l",
+      "sourceVisibility": "public"
     }
   ],
-  "generated": "2026-10-08T05:35:32Z",
+  "generated": "2026-10-08T17:32:17Z",
   "releases": [
     {
       "at": "2026-09-06T05:03:01Z",
@@ -1343,6 +1271,33 @@
       "sourceUrl": "https://github.com/HarzerHeribert/midihands_m4l/releases/tag/v0.1.0",
       "sourceVisibility": "public",
       "tag": "v0.1.0"
+    },
+    {
+      "at": "2026-10-08T06:58:05Z",
+      "id": "406516561",
+      "repo": "sterna",
+      "sourceType": "release",
+      "sourceUrl": "https://github.com/HarzerHeribert/sterna/releases/tag/v0.1.0-pre.40",
+      "sourceVisibility": "public",
+      "tag": "v0.1.0-pre.40"
+    },
+    {
+      "at": "2026-10-08T16:29:45Z",
+      "id": "407045329",
+      "repo": "midihands_m4l",
+      "sourceType": "release",
+      "sourceUrl": "https://github.com/HarzerHeribert/midihands_m4l/releases/tag/v0.2.0",
+      "sourceVisibility": "public",
+      "tag": "v0.2.0"
+    },
+    {
+      "at": "2026-10-08T17:08:56Z",
+      "id": "407077285",
+      "repo": "midihands_m4l",
+      "sourceType": "release",
+      "sourceUrl": "https://github.com/HarzerHeribert/midihands_m4l/releases/tag/v0.3.0-beta.1",
+      "sourceVisibility": "public",
+      "tag": "v0.3.0-beta.1"
     }
   ],
   "renderer": "1.0.0",
@@ -1380,7 +1335,7 @@
       },
       "name": "HarzerHeribert",
       "primaryLanguage": "Python",
-      "pushedAt": "2026-10-07T05:35:28Z",
+      "pushedAt": "2026-10-08T05:35:48Z",
       "sourceType": "repository",
       "sourceUrl": "https://github.com/HarzerHeribert/HarzerHeribert",
       "sourceVisibility": "public",
@@ -1404,17 +1359,18 @@
     {
       "description": "Play Ableton Live with your hands: camera hand tracking to MIDI as a Max for Live device (macOS, Apple Vision).",
       "languages": {
-        "C++": 51937,
-        "HTML": 54026,
-        "JavaScript": 6980,
-        "Makefile": 4622,
-        "Objective-C++": 69279,
-        "Python": 33086,
-        "Shell": 8583
+        "C++": 159992,
+        "HTML": 84349,
+        "JavaScript": 74553,
+        "Makefile": 10202,
+        "Objective-C++": 56680,
+        "PowerShell": 9243,
+        "Python": 46948,
+        "Shell": 11336
       },
       "name": "midihands_m4l",
-      "primaryLanguage": "Objective-C++",
-      "pushedAt": "2026-10-08T00:51:09Z",
+      "primaryLanguage": "C++",
+      "pushedAt": "2026-10-08T17:07:23Z",
       "sourceType": "repository",
       "sourceUrl": "https://github.com/HarzerHeribert/midihands_m4l",
       "sourceVisibility": "public",
@@ -1439,7 +1395,7 @@
       },
       "name": "sterna",
       "primaryLanguage": "Rust",
-      "pushedAt": "2026-10-07T06:47:12Z",
+      "pushedAt": "2026-10-08T06:49:36Z",
       "sourceType": "repository",
       "sourceUrl": "https://github.com/HarzerHeribert/sterna",
       "sourceVisibility": "public",
@@ -1491,7 +1447,7 @@
       ]
     }
   ],
-  "revision": "3a30ef5b4b9d7ae606b38003286510ef4382c12c",
+  "revision": "e91092ae91ae27417772faaa3f3428095646f091",
   "schema": 1,
   "sources": [
     {
@@ -1502,7 +1458,7 @@
     },
     {
       "authentication": "none",
-      "sha256": "f5df2ec8f4560212a3dc5a22906cabccbb343518fcadc5a279900eebc5b0b602",
+      "sha256": "7be236a89199003f587748471aa04ac8c195b4e715341d1f4cade4fb41feb240",
       "status": 200,
       "url": "https://api.github.com/users/HarzerHeribert/repos?type=owner&per_page=100&page=1"
     },
@@ -1544,7 +1500,7 @@
     },
     {
       "authentication": "none",
-      "sha256": "7cbde9bda8766d2826f2366009d2e51ead8efff9ac2c4423b29bc23e6c7f9b61",
+      "sha256": "bba18d7ed977374663c5b4c13dfb1cd18567bd297eed872cffd9f7a36d6dd8a7",
       "status": 200,
       "url": "https://api.github.com/repos/HarzerHeribert/HarzerHeribert"
     },
@@ -1580,25 +1536,25 @@
     },
     {
       "authentication": "none",
-      "sha256": "0770be0aa97e73e2483105c48feb071124a9c34a3f3cbdcb9203ca4db5386708",
+      "sha256": "cd7be946e05dbe77988a8b0df2632e0367c75226ab63a06d3bed963d7aebb77c",
       "status": 200,
       "url": "https://api.github.com/repos/HarzerHeribert/midihands_m4l"
     },
     {
       "authentication": "none",
-      "sha256": "723324bb97c30041fd3107adda1cd5b1642179d116bc29629ab94f244f186b7e",
+      "sha256": "381855e93a84d04e887acd5f65e64997751382ab33dab14c0a9bd0d2b0dca4ae",
       "status": 200,
       "url": "https://api.github.com/repos/HarzerHeribert/midihands_m4l/languages"
     },
     {
       "authentication": "none",
-      "sha256": "34067d2d789ef8ef3d40bcb09d597e05dba0649b0596d66cec714d62c45804da",
+      "sha256": "ef06e8569b7029f04e310a887e2ae30fee8ba2baea84c721c54a43278b6590d4",
       "status": 200,
       "url": "https://api.github.com/repos/HarzerHeribert/midihands_m4l/releases?per_page=100&page=1"
     },
     {
       "authentication": "none",
-      "sha256": "746d49300772b9b9a17f43c09736121cfa8f470c1452c1a473baa5b7bfcaa664",
+      "sha256": "3d84aee63861bd6bcd011fd2073467c84ea2b54a59c97e1c4f2ed9c0669b29d8",
       "status": 200,
       "url": "https://api.github.com/repos/HarzerHeribert/sterna"
     },
@@ -1610,7 +1566,7 @@
     },
     {
       "authentication": "none",
-      "sha256": "0d293c9525d40b6b1384ec0a7a0a79daf25aea5063a80665340c3b251ea40df4",
+      "sha256": "47ac2049e8a15c3bb00e1f370570c069dfcdbec201b4e10b102914b63836756e",
       "status": 200,
       "url": "https://api.github.com/repos/HarzerHeribert/sterna/releases?per_page=100&page=1"
     },
@@ -1634,13 +1590,13 @@
     },
     {
       "authentication": "none",
-      "sha256": "530d74dc7666855fdee0b03f7ed56a658e7018d2957c2db9015718b84a858719",
+      "sha256": "fd5f3706eda71f7434e5a726efabf4b6717e7e40d2be9855c6e80616e05914fd",
       "status": 200,
       "url": "https://api.github.com/users/HarzerHeribert/events/public?per_page=100&page=1"
     },
     {
       "authentication": "none",
-      "sha256": "4318f4fd3765856c93a8c34ba52b1502b4d7c988f02eb9c0aed772a257653fbb",
+      "sha256": "36190cd56adcfaeb9e885d7ca1b82e2dc66910b081317e37785fe30afac264f0",
       "status": 200,
       "url": "https://api.github.com/users/HarzerHeribert/events/public?per_page=100&page=2"
     }
