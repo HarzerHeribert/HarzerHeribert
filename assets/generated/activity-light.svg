@@ -16,8 +16,8 @@ text{font-family:ui-monospace,SFMono-Regular,Consolas,'Liberation Mono',monospac
 <text x="42" y="49" class="label" style="fill:#006779" >PUBLIC SIGNAL</text>
 <text x="1038" y="49" class="micro" text-anchor="end">30 UTC DATES / TODAY PARTIAL</text>
 <path d="M42 68H1038" stroke="#b9c1bf" />
-<text x="42" y="100" class="label" >95 OBSERVED EVENTS</text>
-<text x="1038" y="100" class="micro" text-anchor="end">PEAK 30 / DAY</text>
+<text x="42" y="100" class="label" >93 OBSERVED EVENTS</text>
+<text x="1038" y="100" class="micro" text-anchor="end">PEAK 28 / DAY</text>
 <rect x="43.0" y="227" width="24" height="8" fill="#ced3cd" />
 <rect x="43.0" y="214" width="24" height="8" fill="#ced3cd" />
 <rect x="43.0" y="201" width="24" height="8" fill="#ced3cd" />
@@ -165,7 +165,7 @@ text{font-family:ui-monospace,SFMono-Regular,Consolas,'Liberation Mono',monospac
 <rect x="612.5" y="162" width="24" height="8" fill="#006779" opacity="0.825"/>
 <rect x="612.5" y="149" width="24" height="8" fill="#006779" opacity="0.890"/>
 <rect x="612.5" y="136" width="24" height="8" fill="#006779" opacity="0.955"/>
-<text x="624.5" y="118" class="micro" text-anchor="middle">30</text>
+<text x="624.5" y="118" class="micro" text-anchor="middle">28</text>
 <rect x="646.0" y="227" width="24" height="8" fill="#006779" opacity="0.500"/>
 <rect x="646.0" y="214" width="24" height="8" fill="#ced3cd" />
 <rect x="646.0" y="201" width="24" height="8" fill="#ced3cd" />
