@@ -66,7 +66,7 @@ text{font-family:ui-monospace,SFMono-Regular,Consolas,'Liberation Mono',monospac
 <rect x="210.5" y="162" width="24" height="8" fill="#ced3cd" />
 <rect x="210.5" y="149" width="24" height="8" fill="#ced3cd" />
 <rect x="210.5" y="136" width="24" height="8" fill="#ced3cd" />
-<rect x="244.0" y="227" width="24" height="8" fill="#ced3cd" />
+<rect x="244.0" y="227" width="24" height="8" fill="#006779" opacity="0.500"/>
 <rect x="244.0" y="214" width="24" height="8" fill="#ced3cd" />
 <rect x="244.0" y="201" width="24" height="8" fill="#ced3cd" />
 <rect x="244.0" y="188" width="24" height="8" fill="#ced3cd" />
@@ -74,6 +74,7 @@ text{font-family:ui-monospace,SFMono-Regular,Consolas,'Liberation Mono',monospac
 <rect x="244.0" y="162" width="24" height="8" fill="#ced3cd" />
 <rect x="244.0" y="149" width="24" height="8" fill="#ced3cd" />
 <rect x="244.0" y="136" width="24" height="8" fill="#ced3cd" />
+<text x="256.0" y="118" class="micro" text-anchor="middle">1</text>
 <rect x="277.5" y="227" width="24" height="8" fill="#006779" opacity="0.500"/>
 <rect x="277.5" y="214" width="24" height="8" fill="#ced3cd" />
 <rect x="277.5" y="201" width="24" height="8" fill="#ced3cd" />
@@ -83,7 +84,7 @@ text{font-family:ui-monospace,SFMono-Regular,Consolas,'Liberation Mono',monospac
 <rect x="277.5" y="149" width="24" height="8" fill="#ced3cd" />
 <rect x="277.5" y="136" width="24" height="8" fill="#ced3cd" />
 <text x="289.5" y="118" class="micro" text-anchor="middle">1</text>
-<rect x="311.0" y="227" width="24" height="8" fill="#006779" opacity="0.500"/>
+<rect x="311.0" y="227" width="24" height="8" fill="#ced3cd" />
 <rect x="311.0" y="214" width="24" height="8" fill="#ced3cd" />
 <rect x="311.0" y="201" width="24" height="8" fill="#ced3cd" />
 <rect x="311.0" y="188" width="24" height="8" fill="#ced3cd" />
@@ -91,7 +92,6 @@ text{font-family:ui-monospace,SFMono-Regular,Consolas,'Liberation Mono',monospac
 <rect x="311.0" y="162" width="24" height="8" fill="#ced3cd" />
 <rect x="311.0" y="149" width="24" height="8" fill="#ced3cd" />
 <rect x="311.0" y="136" width="24" height="8" fill="#ced3cd" />
-<text x="323.0" y="118" class="micro" text-anchor="middle">1</text>
 <rect x="344.5" y="227" width="24" height="8" fill="#ced3cd" />
 <rect x="344.5" y="214" width="24" height="8" fill="#ced3cd" />
 <rect x="344.5" y="201" width="24" height="8" fill="#ced3cd" />
@@ -124,7 +124,7 @@ text{font-family:ui-monospace,SFMono-Regular,Consolas,'Liberation Mono',monospac
 <rect x="445.0" y="162" width="24" height="8" fill="#ced3cd" />
 <rect x="445.0" y="149" width="24" height="8" fill="#ced3cd" />
 <rect x="445.0" y="136" width="24" height="8" fill="#ced3cd" />
-<rect x="478.5" y="227" width="24" height="8" fill="#ced3cd" />
+<rect x="478.5" y="227" width="24" height="8" fill="#006779" opacity="0.500"/>
 <rect x="478.5" y="214" width="24" height="8" fill="#ced3cd" />
 <rect x="478.5" y="201" width="24" height="8" fill="#ced3cd" />
 <rect x="478.5" y="188" width="24" height="8" fill="#ced3cd" />
@@ -132,61 +132,62 @@ text{font-family:ui-monospace,SFMono-Regular,Consolas,'Liberation Mono',monospac
 <rect x="478.5" y="162" width="24" height="8" fill="#ced3cd" />
 <rect x="478.5" y="149" width="24" height="8" fill="#ced3cd" />
 <rect x="478.5" y="136" width="24" height="8" fill="#ced3cd" />
+<text x="490.5" y="118" class="micro" text-anchor="middle">3</text>
 <rect x="512.0" y="227" width="24" height="8" fill="#006779" opacity="0.500"/>
-<rect x="512.0" y="214" width="24" height="8" fill="#ced3cd" />
-<rect x="512.0" y="201" width="24" height="8" fill="#ced3cd" />
-<rect x="512.0" y="188" width="24" height="8" fill="#ced3cd" />
-<rect x="512.0" y="175" width="24" height="8" fill="#ced3cd" />
-<rect x="512.0" y="162" width="24" height="8" fill="#ced3cd" />
-<rect x="512.0" y="149" width="24" height="8" fill="#ced3cd" />
-<rect x="512.0" y="136" width="24" height="8" fill="#ced3cd" />
-<text x="524.0" y="118" class="micro" text-anchor="middle">3</text>
+<rect x="512.0" y="214" width="24" height="8" fill="#006779" opacity="0.565"/>
+<rect x="512.0" y="201" width="24" height="8" fill="#006779" opacity="0.630"/>
+<rect x="512.0" y="188" width="24" height="8" fill="#006779" opacity="0.695"/>
+<rect x="512.0" y="175" width="24" height="8" fill="#006779" opacity="0.760"/>
+<rect x="512.0" y="162" width="24" height="8" fill="#006779" opacity="0.825"/>
+<rect x="512.0" y="149" width="24" height="8" fill="#006779" opacity="0.890"/>
+<rect x="512.0" y="136" width="24" height="8" fill="#006779" opacity="0.955"/>
+<text x="524.0" y="118" class="micro" text-anchor="middle">28</text>
 <rect x="545.5" y="227" width="24" height="8" fill="#006779" opacity="0.500"/>
-<rect x="545.5" y="214" width="24" height="8" fill="#006779" opacity="0.565"/>
-<rect x="545.5" y="201" width="24" height="8" fill="#006779" opacity="0.630"/>
-<rect x="545.5" y="188" width="24" height="8" fill="#006779" opacity="0.695"/>
-<rect x="545.5" y="175" width="24" height="8" fill="#006779" opacity="0.760"/>
-<rect x="545.5" y="162" width="24" height="8" fill="#006779" opacity="0.825"/>
-<rect x="545.5" y="149" width="24" height="8" fill="#006779" opacity="0.890"/>
-<rect x="545.5" y="136" width="24" height="8" fill="#006779" opacity="0.955"/>
-<text x="557.5" y="118" class="micro" text-anchor="middle">28</text>
+<rect x="545.5" y="214" width="24" height="8" fill="#ced3cd" />
+<rect x="545.5" y="201" width="24" height="8" fill="#ced3cd" />
+<rect x="545.5" y="188" width="24" height="8" fill="#ced3cd" />
+<rect x="545.5" y="175" width="24" height="8" fill="#ced3cd" />
+<rect x="545.5" y="162" width="24" height="8" fill="#ced3cd" />
+<rect x="545.5" y="149" width="24" height="8" fill="#ced3cd" />
+<rect x="545.5" y="136" width="24" height="8" fill="#ced3cd" />
+<text x="557.5" y="118" class="micro" text-anchor="middle">3</text>
 <rect x="579.0" y="227" width="24" height="8" fill="#006779" opacity="0.500"/>
-<rect x="579.0" y="214" width="24" height="8" fill="#ced3cd" />
+<rect x="579.0" y="214" width="24" height="8" fill="#006779" opacity="0.565"/>
 <rect x="579.0" y="201" width="24" height="8" fill="#ced3cd" />
 <rect x="579.0" y="188" width="24" height="8" fill="#ced3cd" />
 <rect x="579.0" y="175" width="24" height="8" fill="#ced3cd" />
 <rect x="579.0" y="162" width="24" height="8" fill="#ced3cd" />
 <rect x="579.0" y="149" width="24" height="8" fill="#ced3cd" />
 <rect x="579.0" y="136" width="24" height="8" fill="#ced3cd" />
-<text x="591.0" y="118" class="micro" text-anchor="middle">3</text>
+<text x="591.0" y="118" class="micro" text-anchor="middle">5</text>
 <rect x="612.5" y="227" width="24" height="8" fill="#006779" opacity="0.500"/>
 <rect x="612.5" y="214" width="24" height="8" fill="#006779" opacity="0.565"/>
-<rect x="612.5" y="201" width="24" height="8" fill="#ced3cd" />
-<rect x="612.5" y="188" width="24" height="8" fill="#ced3cd" />
-<rect x="612.5" y="175" width="24" height="8" fill="#ced3cd" />
-<rect x="612.5" y="162" width="24" height="8" fill="#ced3cd" />
-<rect x="612.5" y="149" width="24" height="8" fill="#ced3cd" />
+<rect x="612.5" y="201" width="24" height="8" fill="#006779" opacity="0.630"/>
+<rect x="612.5" y="188" width="24" height="8" fill="#006779" opacity="0.695"/>
+<rect x="612.5" y="175" width="24" height="8" fill="#006779" opacity="0.760"/>
+<rect x="612.5" y="162" width="24" height="8" fill="#006779" opacity="0.825"/>
+<rect x="612.5" y="149" width="24" height="8" fill="#006779" opacity="0.890"/>
 <rect x="612.5" y="136" width="24" height="8" fill="#ced3cd" />
-<text x="624.5" y="118" class="micro" text-anchor="middle">5</text>
+<text x="624.5" y="118" class="micro" text-anchor="middle">23</text>
 <rect x="646.0" y="227" width="24" height="8" fill="#006779" opacity="0.500"/>
 <rect x="646.0" y="214" width="24" height="8" fill="#006779" opacity="0.565"/>
 <rect x="646.0" y="201" width="24" height="8" fill="#006779" opacity="0.630"/>
 <rect x="646.0" y="188" width="24" height="8" fill="#006779" opacity="0.695"/>
-<rect x="646.0" y="175" width="24" height="8" fill="#006779" opacity="0.760"/>
-<rect x="646.0" y="162" width="24" height="8" fill="#006779" opacity="0.825"/>
-<rect x="646.0" y="149" width="24" height="8" fill="#006779" opacity="0.890"/>
+<rect x="646.0" y="175" width="24" height="8" fill="#ced3cd" />
+<rect x="646.0" y="162" width="24" height="8" fill="#ced3cd" />
+<rect x="646.0" y="149" width="24" height="8" fill="#ced3cd" />
 <rect x="646.0" y="136" width="24" height="8" fill="#ced3cd" />
-<text x="658.0" y="118" class="micro" text-anchor="middle">23</text>
+<text x="658.0" y="118" class="micro" text-anchor="middle">12</text>
 <rect x="679.5" y="227" width="24" height="8" fill="#006779" opacity="0.500"/>
-<rect x="679.5" y="214" width="24" height="8" fill="#006779" opacity="0.565"/>
-<rect x="679.5" y="201" width="24" height="8" fill="#006779" opacity="0.630"/>
-<rect x="679.5" y="188" width="24" height="8" fill="#006779" opacity="0.695"/>
+<rect x="679.5" y="214" width="24" height="8" fill="#ced3cd" />
+<rect x="679.5" y="201" width="24" height="8" fill="#ced3cd" />
+<rect x="679.5" y="188" width="24" height="8" fill="#ced3cd" />
 <rect x="679.5" y="175" width="24" height="8" fill="#ced3cd" />
 <rect x="679.5" y="162" width="24" height="8" fill="#ced3cd" />
 <rect x="679.5" y="149" width="24" height="8" fill="#ced3cd" />
 <rect x="679.5" y="136" width="24" height="8" fill="#ced3cd" />
-<text x="691.5" y="118" class="micro" text-anchor="middle">12</text>
-<rect x="713.0" y="227" width="24" height="8" fill="#006779" opacity="0.500"/>
+<text x="691.5" y="118" class="micro" text-anchor="middle">2</text>
+<rect x="713.0" y="227" width="24" height="8" fill="#ced3cd" />
 <rect x="713.0" y="214" width="24" height="8" fill="#ced3cd" />
 <rect x="713.0" y="201" width="24" height="8" fill="#ced3cd" />
 <rect x="713.0" y="188" width="24" height="8" fill="#ced3cd" />
@@ -194,8 +195,7 @@ text{font-family:ui-monospace,SFMono-Regular,Consolas,'Liberation Mono',monospac
 <rect x="713.0" y="162" width="24" height="8" fill="#ced3cd" />
 <rect x="713.0" y="149" width="24" height="8" fill="#ced3cd" />
 <rect x="713.0" y="136" width="24" height="8" fill="#ced3cd" />
-<text x="725.0" y="118" class="micro" text-anchor="middle">2</text>
-<rect x="746.5" y="227" width="24" height="8" fill="#ced3cd" />
+<rect x="746.5" y="227" width="24" height="8" fill="#006779" opacity="0.500"/>
 <rect x="746.5" y="214" width="24" height="8" fill="#ced3cd" />
 <rect x="746.5" y="201" width="24" height="8" fill="#ced3cd" />
 <rect x="746.5" y="188" width="24" height="8" fill="#ced3cd" />
@@ -203,7 +203,8 @@ text{font-family:ui-monospace,SFMono-Regular,Consolas,'Liberation Mono',monospac
 <rect x="746.5" y="162" width="24" height="8" fill="#ced3cd" />
 <rect x="746.5" y="149" width="24" height="8" fill="#ced3cd" />
 <rect x="746.5" y="136" width="24" height="8" fill="#ced3cd" />
-<rect x="780.0" y="227" width="24" height="8" fill="#006779" opacity="0.500"/>
+<text x="758.5" y="118" class="micro" text-anchor="middle">1</text>
+<rect x="780.0" y="227" width="24" height="8" fill="#ced3cd" />
 <rect x="780.0" y="214" width="24" height="8" fill="#ced3cd" />
 <rect x="780.0" y="201" width="24" height="8" fill="#ced3cd" />
 <rect x="780.0" y="188" width="24" height="8" fill="#ced3cd" />
@@ -211,7 +212,6 @@ text{font-family:ui-monospace,SFMono-Regular,Consolas,'Liberation Mono',monospac
 <rect x="780.0" y="162" width="24" height="8" fill="#ced3cd" />
 <rect x="780.0" y="149" width="24" height="8" fill="#ced3cd" />
 <rect x="780.0" y="136" width="24" height="8" fill="#ced3cd" />
-<text x="792.0" y="118" class="micro" text-anchor="middle">1</text>
 <rect x="813.5" y="227" width="24" height="8" fill="#ced3cd" />
 <rect x="813.5" y="214" width="24" height="8" fill="#ced3cd" />
 <rect x="813.5" y="201" width="24" height="8" fill="#ced3cd" />
@@ -220,23 +220,23 @@ text{font-family:ui-monospace,SFMono-Regular,Consolas,'Liberation Mono',monospac
 <rect x="813.5" y="162" width="24" height="8" fill="#ced3cd" />
 <rect x="813.5" y="149" width="24" height="8" fill="#ced3cd" />
 <rect x="813.5" y="136" width="24" height="8" fill="#ced3cd" />
-<rect x="847.0" y="227" width="24" height="8" fill="#ced3cd" />
-<rect x="847.0" y="214" width="24" height="8" fill="#ced3cd" />
-<rect x="847.0" y="201" width="24" height="8" fill="#ced3cd" />
-<rect x="847.0" y="188" width="24" height="8" fill="#ced3cd" />
+<rect x="847.0" y="227" width="24" height="8" fill="#006779" opacity="0.500"/>
+<rect x="847.0" y="214" width="24" height="8" fill="#006779" opacity="0.565"/>
+<rect x="847.0" y="201" width="24" height="8" fill="#006779" opacity="0.630"/>
+<rect x="847.0" y="188" width="24" height="8" fill="#006779" opacity="0.695"/>
 <rect x="847.0" y="175" width="24" height="8" fill="#ced3cd" />
 <rect x="847.0" y="162" width="24" height="8" fill="#ced3cd" />
 <rect x="847.0" y="149" width="24" height="8" fill="#ced3cd" />
 <rect x="847.0" y="136" width="24" height="8" fill="#ced3cd" />
-<rect x="880.5" y="227" width="24" height="8" fill="#006779" opacity="0.500"/>
-<rect x="880.5" y="214" width="24" height="8" fill="#006779" opacity="0.565"/>
-<rect x="880.5" y="201" width="24" height="8" fill="#006779" opacity="0.630"/>
-<rect x="880.5" y="188" width="24" height="8" fill="#006779" opacity="0.695"/>
+<text x="859.0" y="118" class="micro" text-anchor="middle">14</text>
+<rect x="880.5" y="227" width="24" height="8" fill="#ced3cd" />
+<rect x="880.5" y="214" width="24" height="8" fill="#ced3cd" />
+<rect x="880.5" y="201" width="24" height="8" fill="#ced3cd" />
+<rect x="880.5" y="188" width="24" height="8" fill="#ced3cd" />
 <rect x="880.5" y="175" width="24" height="8" fill="#ced3cd" />
 <rect x="880.5" y="162" width="24" height="8" fill="#ced3cd" />
 <rect x="880.5" y="149" width="24" height="8" fill="#ced3cd" />
 <rect x="880.5" y="136" width="24" height="8" fill="#ced3cd" />
-<text x="892.5" y="118" class="micro" text-anchor="middle">14</text>
 <rect x="914.0" y="227" width="24" height="8" fill="#ced3cd" />
 <rect x="914.0" y="214" width="24" height="8" fill="#ced3cd" />
 <rect x="914.0" y="201" width="24" height="8" fill="#ced3cd" />
@@ -269,7 +269,7 @@ text{font-family:ui-monospace,SFMono-Regular,Consolas,'Liberation Mono',monospac
 <rect x="1014.5" y="162" width="24" height="8" fill="#ced3cd" />
 <rect x="1014.5" y="149" width="24" height="8" fill="#ced3cd" />
 <rect x="1014.5" y="136" width="24" height="8" fill="#ced3cd" />
-<text x="42" y="261" class="micro" >2026-09-13</text>
-<text x="1038" y="261" class="micro" text-anchor="end">2026-10-12</text>
+<text x="42" y="261" class="micro" >2026-09-14</text>
+<text x="1038" y="261" class="micro" text-anchor="end">2026-10-13</text>
 <text x="42" y="296" class="micro" >Sampled public events. Empty cells indicate no event in this sample.</text>
 </svg>
