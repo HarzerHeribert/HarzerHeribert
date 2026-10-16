@@ -271,6 +271,15 @@
       "sourceVisibility": "public"
     },
     {
+      "at": "2026-10-15T17:56:26Z",
+      "id": "24222659045",
+      "kind": "push",
+      "repo": "claude-modpack",
+      "sourceType": "event",
+      "sourceUrl": "https://github.com/HarzerHeribert/claude-modpack",
+      "sourceVisibility": "public"
+    },
+    {
       "at": "2026-10-15T17:57:20Z",
       "id": "17323079499",
       "kind": "release",
@@ -278,9 +287,27 @@
       "sourceType": "event",
       "sourceUrl": "https://github.com/HarzerHeribert/claude-modpack",
       "sourceVisibility": "public"
+    },
+    {
+      "at": "2026-10-16T10:56:41Z",
+      "id": "17383600582",
+      "kind": "release",
+      "repo": "claude-modpack",
+      "sourceType": "event",
+      "sourceUrl": "https://github.com/HarzerHeribert/claude-modpack",
+      "sourceVisibility": "public"
+    },
+    {
+      "at": "2026-10-16T12:44:42Z",
+      "id": "17389301744",
+      "kind": "release",
+      "repo": "claude-modpack",
+      "sourceType": "event",
+      "sourceUrl": "https://github.com/HarzerHeribert/claude-modpack",
+      "sourceVisibility": "public"
     }
   ],
-  "generated": "2026-10-16T05:32:11Z",
+  "generated": "2026-10-16T17:29:28Z",
   "releases": [
     {
       "at": "2026-09-06T05:03:01Z",
@@ -803,6 +830,33 @@
       "sourceUrl": "https://github.com/HarzerHeribert/claude-modpack/releases/tag/v0.5.0",
       "sourceVisibility": "public",
       "tag": "v0.5.0"
+    },
+    {
+      "at": "2026-10-16T06:56:45Z",
+      "id": "414642500",
+      "repo": "sterna",
+      "sourceType": "release",
+      "sourceUrl": "https://github.com/HarzerHeribert/sterna/releases/tag/v0.1.0-pre.47",
+      "sourceVisibility": "public",
+      "tag": "v0.1.0-pre.47"
+    },
+    {
+      "at": "2026-10-16T10:56:41Z",
+      "id": "414861238",
+      "repo": "claude-modpack",
+      "sourceType": "release",
+      "sourceUrl": "https://github.com/HarzerHeribert/claude-modpack/releases/tag/v0.6.0",
+      "sourceVisibility": "public",
+      "tag": "v0.6.0"
+    },
+    {
+      "at": "2026-10-16T12:44:42Z",
+      "id": "414953694",
+      "repo": "claude-modpack",
+      "sourceType": "release",
+      "sourceUrl": "https://github.com/HarzerHeribert/claude-modpack/releases/tag/v0.6.1",
+      "sourceVisibility": "public",
+      "tag": "v0.6.1"
     }
   ],
   "renderer": "1.0.0",
@@ -821,15 +875,16 @@
       "topics": []
     },
     {
-      "description": "Six Claude Code mods, each measured on real tasks before it shipped, built to work together: statusline, smart-compact, delegate, lsp-plus, cells, eta.",
+      "description": "Eight Claude Code mods, each measured on real tasks before it shipped, built to work together",
       "languages": {
         "JavaScript": 28536,
-        "Python": 99067,
-        "TypeScript": 480753
+        "Python": 157703,
+        "Shell": 43087,
+        "TypeScript": 580719
       },
       "name": "claude-modpack",
       "primaryLanguage": "TypeScript",
-      "pushedAt": "2026-10-15T17:56:26Z",
+      "pushedAt": "2026-10-16T13:34:22Z",
       "sourceType": "repository",
       "sourceUrl": "https://github.com/HarzerHeribert/claude-modpack",
       "sourceVisibility": "public",
@@ -868,7 +923,7 @@
       },
       "name": "HarzerHeribert",
       "primaryLanguage": "Python",
-      "pushedAt": "2026-10-15T17:30:40Z",
+      "pushedAt": "2026-10-16T05:32:29Z",
       "sourceType": "repository",
       "sourceUrl": "https://github.com/HarzerHeribert/HarzerHeribert",
       "sourceVisibility": "public",
@@ -928,7 +983,7 @@
       },
       "name": "sterna",
       "primaryLanguage": "Rust",
-      "pushedAt": "2026-10-15T06:45:07Z",
+      "pushedAt": "2026-10-16T06:44:40Z",
       "sourceType": "repository",
       "sourceUrl": "https://github.com/HarzerHeribert/sterna",
       "sourceVisibility": "public",
@@ -980,7 +1035,7 @@
       ]
     }
   ],
-  "revision": "de8b90e2d6117f76f1b391381602eea9402ab61a",
+  "revision": "1ce8b6b0dcd8a638cf77a19b61e7c5c27a5ecac5",
   "schema": 1,
   "sources": [
     {
@@ -991,7 +1046,7 @@
     },
     {
       "authentication": "none",
-      "sha256": "708483a98a053f339a08e610121d191ca54a747f62e47c4442b5fcacf709d05b",
+      "sha256": "fa56ec22ad74ccf4cd1bed7c2de11977859f85e5110f04baae2574d0d2a7b161",
       "status": 200,
       "url": "https://api.github.com/users/HarzerHeribert/repos?type=owner&per_page=100&page=1"
     },
@@ -1015,19 +1070,19 @@
     },
     {
       "authentication": "none",
-      "sha256": "a82f31ab952cb5dab828aee8a559d40a13bb02c6175068489233cbbfd24e8d10",
+      "sha256": "a6f800b609abf607a43c587a5a22553ca2af9c3358c4720a34d08627d94af76d",
       "status": 200,
       "url": "https://api.github.com/repos/HarzerHeribert/claude-modpack"
     },
     {
       "authentication": "none",
-      "sha256": "7d55ae82e6127fc7209cac68f5c2cdd70dbb7260db39bf2cc0e67b09f722e4cf",
+      "sha256": "956c21de732b02841590164555044e3bf9bfc4fa945949cb510c7f0723ae557a",
       "status": 200,
       "url": "https://api.github.com/repos/HarzerHeribert/claude-modpack/languages"
     },
     {
       "authentication": "none",
-      "sha256": "d402595e878c11b6df5ab41b9e8bbddfb3179db808f4b4898094849dbe701de2",
+      "sha256": "d67586e5a108dfc50b105b797fbc6f0bfa07661a83c3738405b42e9d927f0aa7",
       "status": 200,
       "url": "https://api.github.com/repos/HarzerHeribert/claude-modpack/releases?per_page=100&page=1"
     },
@@ -1051,7 +1106,7 @@
     },
     {
       "authentication": "none",
-      "sha256": "d9fe4e14dc4ff47744bf791ca91a25f6092f9876973aeff7fdca129b1656aa96",
+      "sha256": "569457dc42532d2c01e55a632d33596ac72a382ae6139616602f8ed7883fe821",
       "status": 200,
       "url": "https://api.github.com/repos/HarzerHeribert/HarzerHeribert"
     },
@@ -1105,7 +1160,7 @@
     },
     {
       "authentication": "none",
-      "sha256": "1edfd040b40de388ce62fa7c785faf2ae230c2bc3faaca3d36f57f8e8f0c5b16",
+      "sha256": "dfb69485d41d6ed96069db07c9d1567d030a5db079ab74673a0dc3258a2c7149",
       "status": 200,
       "url": "https://api.github.com/repos/HarzerHeribert/sterna"
     },
@@ -1117,7 +1172,7 @@
     },
     {
       "authentication": "none",
-      "sha256": "a5a5631bdb9bbe74821ba548273993cbee8e3f37d8c10dcab3a826576f00770e",
+      "sha256": "b677ac168f8fe62cadd7ab9d192680e5090984a925953d4d9cdc1ff2998fe3c8",
       "status": 200,
       "url": "https://api.github.com/repos/HarzerHeribert/sterna/releases?per_page=100&page=1"
     },
@@ -1141,7 +1196,7 @@
     },
     {
       "authentication": "none",
-      "sha256": "8e36b112fba490919739d75151e898eb1910361ef0ccec98227711a4e23c6650",
+      "sha256": "66a2e25d2b97461bbd8c0c24a4d44ef071cbd07c911b102e06e117f5bdfcde52",
       "status": 200,
       "url": "https://api.github.com/users/HarzerHeribert/events/public?per_page=100&page=1"
     }
