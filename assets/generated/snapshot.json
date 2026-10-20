@@ -442,6 +442,33 @@
       "sourceVisibility": "public"
     },
     {
+      "at": "2026-10-19T07:42:22Z",
+      "id": "24551023706",
+      "kind": "push",
+      "repo": "claude-modpack",
+      "sourceType": "event",
+      "sourceUrl": "https://github.com/HarzerHeribert/claude-modpack",
+      "sourceVisibility": "public"
+    },
+    {
+      "at": "2026-10-19T10:03:52Z",
+      "id": "24563642090",
+      "kind": "push",
+      "repo": "claude-modpack",
+      "sourceType": "event",
+      "sourceUrl": "https://github.com/HarzerHeribert/claude-modpack",
+      "sourceVisibility": "public"
+    },
+    {
+      "at": "2026-10-19T10:45:06Z",
+      "id": "24567140588",
+      "kind": "push",
+      "repo": "claude-modpack",
+      "sourceType": "event",
+      "sourceUrl": "https://github.com/HarzerHeribert/claude-modpack",
+      "sourceVisibility": "public"
+    },
+    {
       "at": "2026-10-19T16:48:08Z",
       "id": "24545711504",
       "kind": "push",
@@ -451,7 +478,7 @@
       "sourceVisibility": "public"
     }
   ],
-  "generated": "2026-10-19T17:31:14Z",
+  "generated": "2026-10-20T05:33:33Z",
   "releases": [
     {
       "at": "2026-09-06T05:03:01Z",
@@ -1123,7 +1150,7 @@
       },
       "name": "HarzerHeribert",
       "primaryLanguage": "Python",
-      "pushedAt": "2026-10-18T17:28:53Z",
+      "pushedAt": "2026-10-19T17:31:29Z",
       "sourceType": "repository",
       "sourceUrl": "https://github.com/HarzerHeribert/HarzerHeribert",
       "sourceVisibility": "public",
@@ -1235,7 +1262,7 @@
       ]
     }
   ],
-  "revision": "25026048198b2990aef440b35183f1aedd38c7e4",
+  "revision": "532db17f0e0aab49c7df4438f185015f4c00939c",
   "schema": 1,
   "sources": [
     {
@@ -1246,7 +1273,7 @@
     },
     {
       "authentication": "none",
-      "sha256": "c107618c4e5601e416b0251486ee2f46b0cb40f66388342e274da14a78a998bb",
+      "sha256": "f8fcea77dcbdfe86290bc8b71e73ab0cae5f79eb09ac0384d22a730de9ea8954",
       "status": 200,
       "url": "https://api.github.com/users/HarzerHeribert/repos?type=owner&per_page=100&page=1"
     },
@@ -1270,7 +1297,7 @@
     },
     {
       "authentication": "none",
-      "sha256": "710c842a78a7a44c40a6dfbbfb26a8db763366f386e7d9599f1255d6a81c27c1",
+      "sha256": "61867fe793cd65adc65334401dd73dbe0131cb82479f2ce874ff7b895996d0c4",
       "status": 200,
       "url": "https://api.github.com/repos/HarzerHeribert/claude-modpack"
     },
@@ -1306,7 +1333,7 @@
     },
     {
       "authentication": "none",
-      "sha256": "a7b26a096c8754c8fd2d095542c28be2a43102c2c039d5e918c5d1a9c3838e08",
+      "sha256": "194e2bfba0b86ed1e2bf68bbfdb49f851100d1358890b3ddd14b9717a0e25f47",
       "status": 200,
       "url": "https://api.github.com/repos/HarzerHeribert/HarzerHeribert"
     },
@@ -1396,7 +1423,7 @@
     },
     {
       "authentication": "none",
-      "sha256": "bcc2bbfe751046f1c0a44e2d0d30a79bfd5ba237c464bdae6777c44d8bc1d133",
+      "sha256": "d75634391c485db23966fd77553a610a989f1cd812afd59a7e3ee25fed10cc9c",
       "status": 200,
       "url": "https://api.github.com/users/HarzerHeribert/events/public?per_page=100&page=1"
     }
