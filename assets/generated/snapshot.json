@@ -406,6 +406,15 @@
       "sourceVisibility": "public"
     },
     {
+      "at": "2026-10-18T20:08:38Z",
+      "id": "24665545884",
+      "kind": "push",
+      "repo": "claude-modpack",
+      "sourceType": "event",
+      "sourceUrl": "https://github.com/HarzerHeribert/claude-modpack",
+      "sourceVisibility": "public"
+    },
+    {
       "at": "2026-10-18T20:08:39Z",
       "id": "17550238413",
       "kind": "release",
@@ -478,7 +487,7 @@
       "sourceVisibility": "public"
     }
   ],
-  "generated": "2026-10-20T17:30:50Z",
+  "generated": "2026-10-21T05:33:23Z",
   "releases": [
     {
       "at": "2026-09-06T05:03:01Z",
@@ -1159,7 +1168,7 @@
       },
       "name": "HarzerHeribert",
       "primaryLanguage": "Python",
-      "pushedAt": "2026-10-20T05:33:51Z",
+      "pushedAt": "2026-10-20T17:31:05Z",
       "sourceType": "repository",
       "sourceUrl": "https://github.com/HarzerHeribert/HarzerHeribert",
       "sourceVisibility": "public",
@@ -1271,7 +1280,7 @@
       ]
     }
   ],
-  "revision": "727d36ea678a6ee301e0d54a8f991635cdc19525",
+  "revision": "fde0e4b9ee9d1fa85c40b629ba57b6726aad96be",
   "schema": 1,
   "sources": [
     {
@@ -1282,7 +1291,7 @@
     },
     {
       "authentication": "none",
-      "sha256": "d81c031a83522e83f3494ee293ad6f09e142c21e43ca026255e1d08c6ee1d94e",
+      "sha256": "56a045beeb36780bb952db5157110d8e2587a70b1a1b05785ddedae3715bfe6a",
       "status": 200,
       "url": "https://api.github.com/users/HarzerHeribert/repos?type=owner&per_page=100&page=1"
     },
@@ -1342,7 +1351,7 @@
     },
     {
       "authentication": "none",
-      "sha256": "a7ea5f8302fec08b18634992ca4beca10823c6e99e64eb4f86756af0c93c23c6",
+      "sha256": "5013827058db86b1c1c05d3e3cc628fede94ef6e8d2382a31e010591519697f7",
       "status": 200,
       "url": "https://api.github.com/repos/HarzerHeribert/HarzerHeribert"
     },
@@ -1432,7 +1441,7 @@
     },
     {
       "authentication": "none",
-      "sha256": "d75634391c485db23966fd77553a610a989f1cd812afd59a7e3ee25fed10cc9c",
+      "sha256": "7a538aefa49c72540e5ab4799725341c6440fdaa506a0d85ac9540f879d83272",
       "status": 200,
       "url": "https://api.github.com/users/HarzerHeribert/events/public?per_page=100&page=1"
     }
