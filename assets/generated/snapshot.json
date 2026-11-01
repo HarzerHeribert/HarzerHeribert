@@ -514,7 +514,7 @@
       "sourceVisibility": "public"
     }
   ],
-  "generated": "2026-11-01T05:26:02Z",
+  "generated": "2026-11-01T17:26:14Z",
   "releases": [
     {
       "at": "2026-09-06T05:03:01Z",
@@ -1226,6 +1226,15 @@
       "sourceUrl": "https://github.com/HarzerHeribert/sterna/releases/tag/v0.1.0-pre.60",
       "sourceVisibility": "public",
       "tag": "v0.1.0-pre.60"
+    },
+    {
+      "at": "2026-11-01T06:35:54Z",
+      "id": "430406273",
+      "repo": "sterna",
+      "sourceType": "release",
+      "sourceUrl": "https://github.com/HarzerHeribert/sterna/releases/tag/v0.1.0-pre.61",
+      "sourceVisibility": "public",
+      "tag": "v0.1.0-pre.61"
     }
   ],
   "renderer": "1.0.0",
@@ -1294,7 +1303,7 @@
       },
       "name": "HarzerHeribert",
       "primaryLanguage": "Python",
-      "pushedAt": "2026-10-31T17:26:34Z",
+      "pushedAt": "2026-11-01T05:26:16Z",
       "sourceType": "repository",
       "sourceUrl": "https://github.com/HarzerHeribert/HarzerHeribert",
       "sourceVisibility": "public",
@@ -1354,7 +1363,7 @@
       },
       "name": "sterna",
       "primaryLanguage": "Rust",
-      "pushedAt": "2026-10-31T06:26:17Z",
+      "pushedAt": "2026-11-01T06:27:30Z",
       "sourceType": "repository",
       "sourceUrl": "https://github.com/HarzerHeribert/sterna",
       "sourceVisibility": "public",
@@ -1406,7 +1415,7 @@
       ]
     }
   ],
-  "revision": "c3cbeea6153fd67de9498c5a8c7fcedbc6b5f0f8",
+  "revision": "dbfa947d56dc5680be7091b6858505318f7115c1",
   "schema": 1,
   "sources": [
     {
@@ -1417,7 +1426,7 @@
     },
     {
       "authentication": "none",
-      "sha256": "db3002e5aefa1a7463492457e8734a389c6d6952c1ebabfad3690678b2bedf11",
+      "sha256": "6b9031b5e401d134249090c3681088c79829d2faef3e6e6a2efa6ef9b0175846",
       "status": 200,
       "url": "https://api.github.com/users/HarzerHeribert/repos?type=owner&per_page=100&page=1"
     },
@@ -1477,7 +1486,7 @@
     },
     {
       "authentication": "none",
-      "sha256": "7dd513c1f5606f8065221f2e8677658db460ea90d593c53a14553ce74e314fcb",
+      "sha256": "907a99a15a4bf9068f64d5e199800bee5088abc384539e1854cd4c89d1e600c1",
       "status": 200,
       "url": "https://api.github.com/repos/HarzerHeribert/HarzerHeribert"
     },
@@ -1531,7 +1540,7 @@
     },
     {
       "authentication": "none",
-      "sha256": "55dfc49c938f1818aae265bdaf6160d10af6c27e93f00ac0bd610bb820160832",
+      "sha256": "e748d13d2726ea03d93d04d528ab24952e4690cdd4d7812ebddf60764b4ee985",
       "status": 200,
       "url": "https://api.github.com/repos/HarzerHeribert/sterna"
     },
@@ -1543,7 +1552,7 @@
     },
     {
       "authentication": "none",
-      "sha256": "c74ef082719bc6965c018d2bff59d086738858a3821a6f36ea6304d8088d04b7",
+      "sha256": "4081358e3a9b3a62d45340d0036ec02b2f471d96a8dec0c9503bd15b7ec4a85d",
       "status": 200,
       "url": "https://api.github.com/repos/HarzerHeribert/sterna/releases?per_page=100&page=1"
     },
