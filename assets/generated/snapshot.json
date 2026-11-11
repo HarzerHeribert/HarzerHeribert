@@ -1,6 +1,15 @@
 {
   "events": [
     {
+      "at": "2026-10-13T11:15:31Z",
+      "id": "23866548565",
+      "kind": "create",
+      "repo": "claude-modpack",
+      "sourceType": "event",
+      "sourceUrl": "https://github.com/HarzerHeribert/claude-modpack",
+      "sourceVisibility": "public"
+    },
+    {
       "at": "2026-10-13T12:07:26Z",
       "id": "24048910364",
       "kind": "push",
@@ -928,6 +937,15 @@
       "sourceVisibility": "public"
     },
     {
+      "at": "2026-11-09T13:30:35Z",
+      "id": "26827539468",
+      "kind": "delete",
+      "repo": "elsewhere",
+      "sourceType": "event",
+      "sourceUrl": "https://github.com/HarzerHeribert/elsewhere",
+      "sourceVisibility": "public"
+    },
+    {
       "at": "2026-11-09T14:20:51Z",
       "id": "26707182354",
       "kind": "create",
@@ -949,6 +967,15 @@
       "at": "2026-11-09T14:25:47Z",
       "id": "19560954866",
       "kind": "pull_request",
+      "repo": "elsewhere",
+      "sourceType": "event",
+      "sourceUrl": "https://github.com/HarzerHeribert/elsewhere",
+      "sourceVisibility": "public"
+    },
+    {
+      "at": "2026-11-09T14:25:48Z",
+      "id": "26823563224",
+      "kind": "push",
       "repo": "elsewhere",
       "sourceType": "event",
       "sourceUrl": "https://github.com/HarzerHeribert/elsewhere",
@@ -1099,9 +1126,27 @@
       "sourceVisibility": "public"
     },
     {
+      "at": "2026-11-09T15:41:09Z",
+      "id": "26843089224",
+      "kind": "push",
+      "repo": "elsewhere",
+      "sourceType": "event",
+      "sourceUrl": "https://github.com/HarzerHeribert/elsewhere",
+      "sourceVisibility": "public"
+    },
+    {
       "at": "2026-11-09T15:41:10Z",
       "id": "26742955268",
       "kind": "delete",
+      "repo": "elsewhere",
+      "sourceType": "event",
+      "sourceUrl": "https://github.com/HarzerHeribert/elsewhere",
+      "sourceVisibility": "public"
+    },
+    {
+      "at": "2026-11-09T17:12:48Z",
+      "id": "26842622896",
+      "kind": "create",
       "repo": "elsewhere",
       "sourceType": "event",
       "sourceUrl": "https://github.com/HarzerHeribert/elsewhere",
@@ -1216,6 +1261,15 @@
       "sourceVisibility": "public"
     },
     {
+      "at": "2026-11-09T18:46:13Z",
+      "id": "26852441366",
+      "kind": "delete",
+      "repo": "elsewhere",
+      "sourceType": "event",
+      "sourceUrl": "https://github.com/HarzerHeribert/elsewhere",
+      "sourceVisibility": "public"
+    },
+    {
       "at": "2026-11-09T18:49:34Z",
       "id": "26710799447",
       "kind": "create",
@@ -1270,6 +1324,15 @@
       "sourceVisibility": "public"
     },
     {
+      "at": "2026-11-09T21:50:59Z",
+      "id": "26823744054",
+      "kind": "create",
+      "repo": "elsewhere",
+      "sourceType": "event",
+      "sourceUrl": "https://github.com/HarzerHeribert/elsewhere",
+      "sourceVisibility": "public"
+    },
+    {
       "at": "2026-11-09T21:51:19Z",
       "id": "19600625013",
       "kind": "pull_request",
@@ -1282,6 +1345,15 @@
       "at": "2026-11-09T21:52:59Z",
       "id": "19600775474",
       "kind": "pull_request",
+      "repo": "elsewhere",
+      "sourceType": "event",
+      "sourceUrl": "https://github.com/HarzerHeribert/elsewhere",
+      "sourceVisibility": "public"
+    },
+    {
+      "at": "2026-11-09T21:53:00Z",
+      "id": "26823946434",
+      "kind": "push",
       "repo": "elsewhere",
       "sourceType": "event",
       "sourceUrl": "https://github.com/HarzerHeribert/elsewhere",
@@ -1477,6 +1549,15 @@
       "sourceVisibility": "public"
     },
     {
+      "at": "2026-11-10T00:36:41Z",
+      "id": "26838380962",
+      "kind": "push",
+      "repo": "elsewhere",
+      "sourceType": "event",
+      "sourceUrl": "https://github.com/HarzerHeribert/elsewhere",
+      "sourceVisibility": "public"
+    },
+    {
       "at": "2026-11-10T00:36:43Z",
       "id": "26775149234",
       "kind": "delete",
@@ -1516,6 +1597,15 @@
       "at": "2026-11-10T00:53:27Z",
       "id": "26764693437",
       "kind": "push",
+      "repo": "elsewhere",
+      "sourceType": "event",
+      "sourceUrl": "https://github.com/HarzerHeribert/elsewhere",
+      "sourceVisibility": "public"
+    },
+    {
+      "at": "2026-11-10T00:53:27Z",
+      "id": "26839857542",
+      "kind": "delete",
       "repo": "elsewhere",
       "sourceType": "event",
       "sourceUrl": "https://github.com/HarzerHeribert/elsewhere",
@@ -1603,9 +1693,27 @@
       "sourceVisibility": "public"
     },
     {
+      "at": "2026-11-10T09:05:44Z",
+      "id": "26819107352",
+      "kind": "delete",
+      "repo": "elsewhere",
+      "sourceType": "event",
+      "sourceUrl": "https://github.com/HarzerHeribert/elsewhere",
+      "sourceVisibility": "public"
+    },
+    {
       "at": "2026-11-10T09:31:12Z",
       "id": "26790738845",
       "kind": "delete",
+      "repo": "elsewhere",
+      "sourceType": "event",
+      "sourceUrl": "https://github.com/HarzerHeribert/elsewhere",
+      "sourceVisibility": "public"
+    },
+    {
+      "at": "2026-11-10T09:43:09Z",
+      "id": "26822757429",
+      "kind": "create",
       "repo": "elsewhere",
       "sourceType": "event",
       "sourceUrl": "https://github.com/HarzerHeribert/elsewhere",
@@ -1675,6 +1783,15 @@
       "sourceVisibility": "public"
     },
     {
+      "at": "2026-11-10T10:17:51Z",
+      "id": "26826130657",
+      "kind": "push",
+      "repo": "elsewhere",
+      "sourceType": "event",
+      "sourceUrl": "https://github.com/HarzerHeribert/elsewhere",
+      "sourceVisibility": "public"
+    },
+    {
       "at": "2026-11-10T10:59:14Z",
       "id": "19657693700",
       "kind": "pull_request",
@@ -1696,6 +1813,15 @@
       "at": "2026-11-10T11:25:28Z",
       "id": "26804484568",
       "kind": "push",
+      "repo": "elsewhere",
+      "sourceType": "event",
+      "sourceUrl": "https://github.com/HarzerHeribert/elsewhere",
+      "sourceVisibility": "public"
+    },
+    {
+      "at": "2026-11-10T11:25:30Z",
+      "id": "26853489983",
+      "kind": "delete",
       "repo": "elsewhere",
       "sourceType": "event",
       "sourceUrl": "https://github.com/HarzerHeribert/elsewhere",
@@ -1738,6 +1864,24 @@
       "sourceVisibility": "public"
     },
     {
+      "at": "2026-11-10T14:52:29Z",
+      "id": "26844556594",
+      "kind": "push",
+      "repo": "elsewhere",
+      "sourceType": "event",
+      "sourceUrl": "https://github.com/HarzerHeribert/elsewhere",
+      "sourceVisibility": "public"
+    },
+    {
+      "at": "2026-11-10T14:52:31Z",
+      "id": "26821723066",
+      "kind": "delete",
+      "repo": "elsewhere",
+      "sourceType": "event",
+      "sourceUrl": "https://github.com/HarzerHeribert/elsewhere",
+      "sourceVisibility": "public"
+    },
+    {
       "at": "2026-11-10T23:19:44Z",
       "id": "19724233004",
       "kind": "pull_request",
@@ -1772,9 +1916,18 @@
       "sourceType": "event",
       "sourceUrl": "https://github.com/HarzerHeribert/elsewhere",
       "sourceVisibility": "public"
+    },
+    {
+      "at": "2026-11-11T11:50:50Z",
+      "id": "19776489680",
+      "kind": "pull_request",
+      "repo": "elsewhere",
+      "sourceType": "event",
+      "sourceUrl": "https://github.com/HarzerHeribert/elsewhere",
+      "sourceVisibility": "public"
     }
   ],
-  "generated": "2026-11-11T05:26:07Z",
+  "generated": "2026-11-11T17:26:22Z",
   "releases": [
     {
       "at": "2026-09-06T05:03:01Z",
@@ -2585,6 +2738,15 @@
       "sourceUrl": "https://github.com/HarzerHeribert/claude-modpack/releases/tag/v0.9.6",
       "sourceVisibility": "public",
       "tag": "v0.9.6"
+    },
+    {
+      "at": "2026-11-11T06:37:43Z",
+      "id": "441316412",
+      "repo": "sterna",
+      "sourceType": "release",
+      "sourceUrl": "https://github.com/HarzerHeribert/sterna/releases/tag/v0.1.0-pre.71",
+      "sourceVisibility": "public",
+      "tag": "v0.1.0-pre.71"
     }
   ],
   "renderer": "1.0.0",
@@ -2658,7 +2820,7 @@
       },
       "name": "elsewhere",
       "primaryLanguage": "TypeScript",
-      "pushedAt": "2026-11-11T00:07:13Z",
+      "pushedAt": "2026-11-11T11:50:48Z",
       "sourceType": "repository",
       "sourceUrl": "https://github.com/HarzerHeribert/elsewhere",
       "sourceVisibility": "public",
@@ -2671,7 +2833,7 @@
       },
       "name": "HarzerHeribert",
       "primaryLanguage": "Python",
-      "pushedAt": "2026-11-10T17:26:54Z",
+      "pushedAt": "2026-11-11T05:26:31Z",
       "sourceType": "repository",
       "sourceUrl": "https://github.com/HarzerHeribert/HarzerHeribert",
       "sourceVisibility": "public",
@@ -2731,7 +2893,7 @@
       },
       "name": "sterna",
       "primaryLanguage": "Rust",
-      "pushedAt": "2026-11-10T06:28:46Z",
+      "pushedAt": "2026-11-11T06:29:34Z",
       "sourceType": "repository",
       "sourceUrl": "https://github.com/HarzerHeribert/sterna",
       "sourceVisibility": "public",
@@ -2783,7 +2945,7 @@
       ]
     }
   ],
-  "revision": "2f6369626f53d3f73c5a8fe85d5b1e06aa578e92",
+  "revision": "38e4e1cfa628696de499a62b945e74a111c21f25",
   "schema": 1,
   "sources": [
     {
@@ -2794,7 +2956,7 @@
     },
     {
       "authentication": "none",
-      "sha256": "c779485410dc6ac69958af1258413e3da8f820cb551b3d58365667ccd07f7643",
+      "sha256": "ef5dfc63eef31f43251af77203db72967c3dc8bfbcfdc37524db7caeaf758147",
       "status": 200,
       "url": "https://api.github.com/users/HarzerHeribert/repos?type=owner&per_page=100&page=1"
     },
@@ -2854,7 +3016,7 @@
     },
     {
       "authentication": "none",
-      "sha256": "7abc480b159ca14e2fb6d1bbc58c8e11764333bdebe53f61b369975d7732acce",
+      "sha256": "4cb585c1c05eee94ac3994dc25ceee0cbcebc936270b21b6a9bf00f64e3dc8fa",
       "status": 200,
       "url": "https://api.github.com/repos/HarzerHeribert/elsewhere"
     },
@@ -2872,7 +3034,7 @@
     },
     {
       "authentication": "none",
-      "sha256": "f4fd06df728740e2d88cbc1259a6df8b2d372be121d27fb06dff7f428c0c40cb",
+      "sha256": "26240e5966ffe05812747c567dc39f08afb697134fe88934d6aba934c004bcf4",
       "status": 200,
       "url": "https://api.github.com/repos/HarzerHeribert/HarzerHeribert"
     },
@@ -2926,7 +3088,7 @@
     },
     {
       "authentication": "none",
-      "sha256": "342d9d62998f717f868c791fe0fe359a868ec6f6fe9a64874e4f8a914ed6a36c",
+      "sha256": "5e68c9682110ef7a8d92ead986b205e7985a71acc4d438f74030ab740045826c",
       "status": 200,
       "url": "https://api.github.com/repos/HarzerHeribert/sterna"
     },
@@ -2938,7 +3100,7 @@
     },
     {
       "authentication": "none",
-      "sha256": "857b0575fe240e1f7beecd1f8d2afb5eea9383b3ed636f5cc7a17de60a0da5fc",
+      "sha256": "5baf8d6c2004fe97d22f67037cae8f77b657fc422db650f3bfbc648dffcc9e38",
       "status": 200,
       "url": "https://api.github.com/repos/HarzerHeribert/sterna/releases?per_page=100&page=1"
     },
@@ -2962,15 +3124,21 @@
     },
     {
       "authentication": "none",
-      "sha256": "9adceae3e1fe019d067ad8c47eb756eaf28dd3751cb58e9f30a9f854c8dcbade",
+      "sha256": "f6ab3df55c2bd678d1f8907fda0a6c7d23fedc6334b074454ecdfea8d7d82bdd",
       "status": 200,
       "url": "https://api.github.com/users/HarzerHeribert/events/public?per_page=100&page=1"
     },
     {
       "authentication": "none",
-      "sha256": "5a9f0c1e52c6f2bca1bc8139f32361a8528d5ca056302b6e2ae9fad9142f936e",
+      "sha256": "e6b5a32d990a8068d6ecef01c040d0c9f6d875c2cbc982ea9d4cd07de4cff13e",
       "status": 200,
       "url": "https://api.github.com/users/HarzerHeribert/events/public?per_page=100&page=2"
+    },
+    {
+      "authentication": "none",
+      "sha256": "860a66ae34b9670ee586adc2514c70f9c73780eaf36fed0af3edb635396d6ed0",
+      "status": 200,
+      "url": "https://api.github.com/users/HarzerHeribert/events/public?per_page=100&page=3"
     }
   ],
   "user": {
