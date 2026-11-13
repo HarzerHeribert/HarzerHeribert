@@ -28,15 +28,15 @@ text{font-family:ui-monospace,SFMono-Regular,Consolas,'Liberation Mono',monospac
 <text x="48" y="383" class="" font-size="18" >elsewhere</text>
 <text x="760" y="383" class="small" >TypeScript</text>
 <rect x="946" y="375" width="86" height="2" fill="#b9c1bf" />
-<rect x="946" y="375" width="80.26" height="2" fill="#006779" />
-<text x="48" y="432" class="" font-size="18" >sterna</text>
-<text x="760" y="432" class="small" >Rust</text>
+<rect x="946" y="375" width="80.39" height="2" fill="#006779" />
+<text x="48" y="432" class="" font-size="18" >HarzerHeribert</text>
+<text x="760" y="432" class="small" >Python</text>
 <rect x="946" y="424" width="86" height="2" fill="#b9c1bf" />
-<rect x="946" y="424" width="79.36" height="2" fill="#006779" />
-<text x="48" y="481" class="" font-size="18" >HarzerHeribert</text>
-<text x="760" y="481" class="small" >Python</text>
+<rect x="946" y="424" width="86.0" height="2" fill="#006779" />
+<text x="48" y="481" class="" font-size="18" >sterna</text>
+<text x="760" y="481" class="small" >Rust</text>
 <rect x="946" y="473" width="86" height="2" fill="#b9c1bf" />
-<rect x="946" y="473" width="86.0" height="2" fill="#006779" />
+<rect x="946" y="473" width="79.36" height="2" fill="#006779" />
 <text x="48" y="530" class="" font-size="18" >claude-modpack</text>
 <text x="760" y="530" class="small" >TypeScript</text>
 <rect x="946" y="522" width="86" height="2" fill="#b9c1bf" />
@@ -52,19 +52,19 @@ text{font-family:ui-monospace,SFMono-Regular,Consolas,'Liberation Mono',monospac
 <path d="M48 672H1032" stroke="#b9c1bf" />
 <text x="48" y="707" class="micro" >RECENT PUBLIC EVENTS</text>
 <path d="M60 741H1020" stroke="#b9c1bf" />
-<circle cx="72" cy="741" r="4" fill="#006779" />
-<path d="M157 735l6 6-6 6-6-6Z" fill="#006779"/>
-<circle cx="242" cy="741" r="4" fill="#006779" />
-<circle cx="327" cy="741" r="4" fill="#52646b" opacity=".8"/>
-<circle cx="412" cy="741" r="4" fill="#52646b" opacity=".8"/>
+<circle cx="72" cy="741" r="4" fill="#52646b" opacity=".8"/>
+<circle cx="157" cy="741" r="4" fill="#52646b" opacity=".8"/>
+<path d="M242 735l6 6-6 6-6-6Z" fill="#006779"/>
+<path d="M327 735l6 6-6 6-6-6Z" fill="#006779"/>
+<circle cx="412" cy="741" r="4" fill="#006779" />
 <path d="M497 735l6 6-6 6-6-6Z" fill="#006779"/>
 <path d="M582 735l6 6-6 6-6-6Z" fill="#006779"/>
-<path d="M667 735l6 6-6 6-6-6Z" fill="#006779"/>
+<circle cx="667" cy="741" r="4" fill="#006779" />
 <path d="M752 735l6 6-6 6-6-6Z" fill="#006779"/>
-<circle cx="837" cy="741" r="4" fill="#006779" />
+<path d="M837 735l6 6-6 6-6-6Z" fill="#006779"/>
 <path d="M922 735l6 6-6 6-6-6Z" fill="#006779"/>
 <path d="M1007 735l6 6-6 6-6-6Z" fill="#006779"/>
 <rect x="60" y="740" width="10" height="2" fill="#006779" class="packet"/>
 <path d="M48 783H1032" stroke="#b9c1bf" />
-<text x="48" y="811" class="micro" >2026-11-12 17:26:03 UTC  /  5e4f9b439221</text>
+<text x="48" y="811" class="micro" >2026-11-13 05:26:23 UTC  /  91018da5787d</text>
 </svg>
