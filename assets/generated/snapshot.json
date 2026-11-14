@@ -1954,6 +1954,15 @@
       "sourceVisibility": "public"
     },
     {
+      "at": "2026-11-12T11:54:54Z",
+      "id": "27089786213",
+      "kind": "create",
+      "repo": "elsewhere",
+      "sourceType": "event",
+      "sourceUrl": "https://github.com/HarzerHeribert/elsewhere",
+      "sourceVisibility": "public"
+    },
+    {
       "at": "2026-11-12T11:54:56Z",
       "id": "19890714726",
       "kind": "pull_request",
@@ -2020,6 +2029,15 @@
       "at": "2026-11-12T17:44:56Z",
       "id": "19923819754",
       "kind": "pull_request",
+      "repo": "elsewhere",
+      "sourceType": "event",
+      "sourceUrl": "https://github.com/HarzerHeribert/elsewhere",
+      "sourceVisibility": "public"
+    },
+    {
+      "at": "2026-11-13T12:09:31Z",
+      "id": "27054182719",
+      "kind": "create",
       "repo": "elsewhere",
       "sourceType": "event",
       "sourceUrl": "https://github.com/HarzerHeribert/elsewhere",
@@ -2096,9 +2114,63 @@
       "sourceType": "event",
       "sourceUrl": "https://github.com/HarzerHeribert/elsewhere",
       "sourceVisibility": "public"
+    },
+    {
+      "at": "2026-11-13T23:55:26Z",
+      "id": "20074013630",
+      "kind": "pull_request",
+      "repo": "elsewhere",
+      "sourceType": "event",
+      "sourceUrl": "https://github.com/HarzerHeribert/elsewhere",
+      "sourceVisibility": "public"
+    },
+    {
+      "at": "2026-11-14T00:03:39Z",
+      "id": "20074568700",
+      "kind": "pull_request",
+      "repo": "elsewhere",
+      "sourceType": "event",
+      "sourceUrl": "https://github.com/HarzerHeribert/elsewhere",
+      "sourceVisibility": "public"
+    },
+    {
+      "at": "2026-11-14T00:33:58Z",
+      "id": "20076500226",
+      "kind": "pull_request",
+      "repo": "elsewhere",
+      "sourceType": "event",
+      "sourceUrl": "https://github.com/HarzerHeribert/elsewhere",
+      "sourceVisibility": "public"
+    },
+    {
+      "at": "2026-11-14T00:35:57Z",
+      "id": "20076625657",
+      "kind": "pull_request",
+      "repo": "elsewhere",
+      "sourceType": "event",
+      "sourceUrl": "https://github.com/HarzerHeribert/elsewhere",
+      "sourceVisibility": "public"
+    },
+    {
+      "at": "2026-11-14T01:56:04Z",
+      "id": "27093371267",
+      "kind": "push",
+      "repo": "Tasktap",
+      "sourceType": "event",
+      "sourceUrl": "https://github.com/HarzerHeribert/Tasktap",
+      "sourceVisibility": "public"
+    },
+    {
+      "at": "2026-11-14T03:01:03Z",
+      "id": "27097240912",
+      "kind": "push",
+      "repo": "Tasktap",
+      "sourceType": "event",
+      "sourceUrl": "https://github.com/HarzerHeribert/Tasktap",
+      "sourceVisibility": "public"
     }
   ],
-  "generated": "2026-11-13T17:26:33Z",
+  "generated": "2026-11-14T05:26:11Z",
   "releases": [
     {
       "at": "2026-09-06T05:03:01Z",
@@ -3000,16 +3072,16 @@
     {
       "description": "A living 3D world for curious digital creatures. Elsewhere is the place; Hubert is its first resident.",
       "languages": {
-        "CSS": 99301,
+        "CSS": 126381,
         "Dockerfile": 1914,
         "HTML": 15764,
         "JavaScript": 53926,
         "Python": 1667,
-        "TypeScript": 2583993
+        "TypeScript": 2591615
       },
       "name": "elsewhere",
       "primaryLanguage": "TypeScript",
-      "pushedAt": "2026-11-13T13:00:33Z",
+      "pushedAt": "2026-11-14T00:35:59Z",
       "sourceType": "repository",
       "sourceUrl": "https://github.com/HarzerHeribert/elsewhere",
       "sourceVisibility": "public",
@@ -3022,7 +3094,7 @@
       },
       "name": "HarzerHeribert",
       "primaryLanguage": "Python",
-      "pushedAt": "2026-11-13T05:26:49Z",
+      "pushedAt": "2026-11-13T17:27:01Z",
       "sourceType": "repository",
       "sourceUrl": "https://github.com/HarzerHeribert/HarzerHeribert",
       "sourceVisibility": "public",
@@ -3106,6 +3178,24 @@
       ]
     },
     {
+      "description": "A voice-first macOS notch companion for local coding-agent sessions.",
+      "languages": {
+        "CSS": 3049,
+        "HTML": 2928,
+        "JavaScript": 35278,
+        "Python": 52013,
+        "Shell": 1192,
+        "Swift": 92982
+      },
+      "name": "Tasktap",
+      "primaryLanguage": "Swift",
+      "pushedAt": "2026-11-14T03:03:11Z",
+      "sourceType": "repository",
+      "sourceUrl": "https://github.com/HarzerHeribert/Tasktap",
+      "sourceVisibility": "public",
+      "topics": []
+    },
+    {
       "description": "A compiler from human intent to a live, bounded WebMCP tool contract. Relay CRM is the host demo.",
       "languages": {
         "CSS": 79409,
@@ -3134,18 +3224,18 @@
       ]
     }
   ],
-  "revision": "4c084ab73834d13861c9284a73a1ad4012f694dc",
+  "revision": "d0236471960927e2e4fafc2729f667733b34e061",
   "schema": 1,
   "sources": [
     {
       "authentication": "none",
-      "sha256": "276d9a3dc08633015521b20f16158df01e5f868d5513898f623a8c7a12303edf",
+      "sha256": "867159a317b7e1d5bb25588be719a7c45ac4eeeb3dd53f5cb85c39f32f9f7be0",
       "status": 200,
       "url": "https://api.github.com/users/HarzerHeribert"
     },
     {
       "authentication": "none",
-      "sha256": "30e2bb75777d6be2a4f09ed05b0c3d05da66209a7a536ebf69c9fcbfab8c1fd5",
+      "sha256": "ccf1ddc7c2c13104c5efd3a2fc034557d5a9026faab68b72b9882ffc350531c3",
       "status": 200,
       "url": "https://api.github.com/users/HarzerHeribert/repos?type=owner&per_page=100&page=1"
     },
@@ -3205,13 +3295,13 @@
     },
     {
       "authentication": "none",
-      "sha256": "65a9496a5d8540c683b2cc3d3b84fa5de36d15056228865f1345aa7e2920c468",
+      "sha256": "0b07f3b82a5bed19a46476fa80984c4097d128dbd28e8bf6f3d12f44ab825950",
       "status": 200,
       "url": "https://api.github.com/repos/HarzerHeribert/elsewhere"
     },
     {
       "authentication": "none",
-      "sha256": "55e25945bbd7c60cbbfb8fbb088f080b9f6767fec8f417d0c632adc0e460b0be",
+      "sha256": "00557f4c4118d2e6e45c4fda8f8a086c1c4c84d33ecb7ef850ef3a125f7e3e2b",
       "status": 200,
       "url": "https://api.github.com/repos/HarzerHeribert/elsewhere/languages"
     },
@@ -3223,7 +3313,7 @@
     },
     {
       "authentication": "none",
-      "sha256": "3a66d73336efae796ed242ac0bb5541f2ae9f0a901954a43d6f243c6cb287962",
+      "sha256": "984887dd1965f93f66cba7639f94ab27cf11620e40fd67e7ddcad33cfe0fc734",
       "status": 200,
       "url": "https://api.github.com/repos/HarzerHeribert/HarzerHeribert"
     },
@@ -3289,9 +3379,27 @@
     },
     {
       "authentication": "none",
-      "sha256": "f24a3c94bc301bee37b4156ad06e5ba704911781441528d8f5f46605dd5653ce",
+      "sha256": "40558e311f67a14e8f713cfd330fc22aeeaf9a44f0ef9eac0a335d7eb416b687",
       "status": 200,
       "url": "https://api.github.com/repos/HarzerHeribert/sterna/releases?per_page=100&page=1"
+    },
+    {
+      "authentication": "none",
+      "sha256": "4437523c1df61ea332888edd928e86384f245ca983dd6d3b8b4e89304169092b",
+      "status": 200,
+      "url": "https://api.github.com/repos/HarzerHeribert/Tasktap"
+    },
+    {
+      "authentication": "none",
+      "sha256": "199c02ba85b9c4f54147e6bbc6695e01b5ef0a9005a830bc749ab3532f44f525",
+      "status": 200,
+      "url": "https://api.github.com/repos/HarzerHeribert/Tasktap/languages"
+    },
+    {
+      "authentication": "none",
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "status": 200,
+      "url": "https://api.github.com/repos/HarzerHeribert/Tasktap/releases?per_page=100&page=1"
     },
     {
       "authentication": "none",
@@ -3313,19 +3421,19 @@
     },
     {
       "authentication": "none",
-      "sha256": "d4d5f49bc17bd9445e7add0deef1ceb0194399b09756194b0d1c1119069eed76",
+      "sha256": "fbad68b74f47d30e3299040de5d1919d54a4ae56f255d92ff8f11d6d3edb58e5",
       "status": 200,
       "url": "https://api.github.com/users/HarzerHeribert/events/public?per_page=100&page=1"
     },
     {
       "authentication": "none",
-      "sha256": "d5dc7832bec39ba41ce9d0a830036f22afba8be527c9f4291a4c6a929e1b78ef",
+      "sha256": "09257ac41ee7b1079d42be5e6cb5616e228a5183f3125128fcb4abdf2adb2215",
       "status": 200,
       "url": "https://api.github.com/users/HarzerHeribert/events/public?per_page=100&page=2"
     },
     {
       "authentication": "none",
-      "sha256": "e0c56a17ee1ba9b4454f7d577d45c2797fa269ed6723aefe0c8cec169a1c917a",
+      "sha256": "ce6ca65bc03f084bced7019f078c83d08137923b5023fc937a2a87c3a07fc5e2",
       "status": 200,
       "url": "https://api.github.com/users/HarzerHeribert/events/public?per_page=100&page=3"
     }
