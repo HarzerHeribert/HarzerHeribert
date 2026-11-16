@@ -21,9 +21,9 @@ text{font-family:ui-monospace,SFMono-Regular,Consolas,'Liberation Mono',monospac
 <rect x="42" y="121" width="347" height="51" fill="#0d151d" />
 <text x="58" y="143" class="" font-size="17" >aictl</text>
 <text x="58" y="161" class="micro" ></text>
-<path d="M389 143H464V365H755" fill="none" stroke="#263844"/>
+<path d="M389 143H464V439H755" fill="none" stroke="#263844"/>
 <circle cx="389" cy="143" r="3" fill="#64e8ea" />
-<circle cx="755" cy="365" r="4" fill="#64e8ea" class="led"/>
+<circle cx="755" cy="439" r="4" fill="#64e8ea" class="led"/>
 <rect x="42" y="195" width="347" height="51" fill="#0d151d" />
 <text x="58" y="217" class="" font-size="17" >claude-modpack</text>
 <text x="58" y="235" class="micro" >ai-coding / anthropic / benchmarks / clau…</text>
@@ -33,9 +33,9 @@ text{font-family:ui-monospace,SFMono-Regular,Consolas,'Liberation Mono',monospac
 <rect x="42" y="269" width="347" height="51" fill="#0d151d" />
 <text x="58" y="291" class="" font-size="17" >claude-statusline</text>
 <text x="58" y="309" class="micro" ></text>
-<path d="M389 291H530V365H755" fill="none" stroke="#263844"/>
+<path d="M389 291H530V439H755" fill="none" stroke="#263844"/>
 <circle cx="389" cy="291" r="3" fill="#64e8ea" />
-<circle cx="755" cy="365" r="4" fill="#64e8ea" class="led"/>
+<circle cx="755" cy="439" r="4" fill="#64e8ea" class="led"/>
 <rect x="42" y="343" width="347" height="51" fill="#0d151d" />
 <text x="58" y="365" class="" font-size="17" >elsewhere</text>
 <text x="58" y="383" class="micro" ></text>
@@ -45,9 +45,9 @@ text{font-family:ui-monospace,SFMono-Regular,Consolas,'Liberation Mono',monospac
 <rect x="42" y="417" width="347" height="51" fill="#0d151d" />
 <text x="58" y="439" class="" font-size="17" >HarzerHeribert</text>
 <text x="58" y="457" class="micro" ></text>
-<path d="M389 439H596V217H755" fill="none" stroke="#263844"/>
+<path d="M389 439H596V291H755" fill="none" stroke="#263844"/>
 <circle cx="389" cy="439" r="3" fill="#64e8ea" />
-<circle cx="755" cy="217" r="4" fill="#64e8ea" class="led"/>
+<circle cx="755" cy="291" r="4" fill="#64e8ea" class="led"/>
 <rect x="42" y="491" width="347" height="51" fill="#0d151d" />
 <text x="58" y="513" class="" font-size="17" >mcp-voice-simulator</text>
 <text x="58" y="531" class="micro" ></text>
@@ -61,15 +61,15 @@ text{font-family:ui-monospace,SFMono-Regular,Consolas,'Liberation Mono',monospac
 <rect x="42" y="639" width="347" height="51" fill="#0d151d" />
 <text x="58" y="661" class="" font-size="17" >sterna</text>
 <text x="58" y="679" class="micro" >ai-coding / ai-tools / claude-code / code…</text>
-<path d="M389 661H695V291H755" fill="none" stroke="#263844"/>
+<path d="M389 661H695V365H755" fill="none" stroke="#263844"/>
 <circle cx="389" cy="661" r="3" fill="#64e8ea" />
-<circle cx="755" cy="291" r="4" fill="#64e8ea" class="led"/>
+<circle cx="755" cy="365" r="4" fill="#64e8ea" class="led"/>
 <rect x="42" y="713" width="347" height="51" fill="#0d151d" />
 <text x="58" y="735" class="" font-size="17" >Tasktap</text>
 <text x="58" y="753" class="micro" ></text>
-<path d="M389 735H728V439H755" fill="none" stroke="#263844"/>
+<path d="M389 735H728V217H755" fill="none" stroke="#263844"/>
 <circle cx="389" cy="735" r="3" fill="#64e8ea" />
-<circle cx="755" cy="439" r="4" fill="#64e8ea" class="led"/>
+<circle cx="755" cy="217" r="4" fill="#64e8ea" class="led"/>
 <rect x="42" y="787" width="347" height="51" fill="#0d151d" />
 <text x="58" y="809" class="" font-size="17" >webMCP</text>
 <text x="58" y="827" class="micro" >ai-agents / authorization / delegation / …</text>
@@ -80,17 +80,17 @@ text{font-family:ui-monospace,SFMono-Regular,Consolas,'Liberation Mono',monospac
 <text x="789" y="143" class="" font-size="17" style="fill:#64e8ea" >C++</text>
 <text x="789" y="161" class="micro" >01 REPOSITORY</text>
 <rect x="773" y="195" width="265" height="51" fill="#0d151d" />
-<text x="789" y="217" class="" font-size="17" style="fill:#64e8ea" >Python</text>
+<text x="789" y="217" class="" font-size="17" style="fill:#64e8ea" >JavaScript</text>
 <text x="789" y="235" class="micro" >01 REPOSITORY</text>
 <rect x="773" y="269" width="265" height="51" fill="#0d151d" />
-<text x="789" y="291" class="" font-size="17" style="fill:#64e8ea" >Rust</text>
+<text x="789" y="291" class="" font-size="17" style="fill:#64e8ea" >Python</text>
 <text x="789" y="309" class="micro" >01 REPOSITORY</text>
 <rect x="773" y="343" width="265" height="51" fill="#0d151d" />
-<text x="789" y="365" class="" font-size="17" style="fill:#64e8ea" >Shell</text>
-<text x="789" y="383" class="micro" >02 REPOSITORY ENTRIES</text>
+<text x="789" y="365" class="" font-size="17" style="fill:#64e8ea" >Rust</text>
+<text x="789" y="383" class="micro" >01 REPOSITORY</text>
 <rect x="773" y="417" width="265" height="51" fill="#0d151d" />
-<text x="789" y="439" class="" font-size="17" style="fill:#64e8ea" >Swift</text>
-<text x="789" y="457" class="micro" >01 REPOSITORY</text>
+<text x="789" y="439" class="" font-size="17" style="fill:#64e8ea" >Shell</text>
+<text x="789" y="457" class="micro" >02 REPOSITORY ENTRIES</text>
 <rect x="773" y="491" width="265" height="51" fill="#0d151d" />
 <text x="789" y="513" class="" font-size="17" style="fill:#64e8ea" >TypeScript</text>
 <text x="789" y="531" class="micro" >03 REPOSITORY ENTRIES</text>
