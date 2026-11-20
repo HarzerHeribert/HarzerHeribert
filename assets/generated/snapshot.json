@@ -46,15 +46,6 @@
       "sourceVisibility": "public"
     },
     {
-      "at": "2026-11-09T18:46:12Z",
-      "id": "26805123721",
-      "kind": "push",
-      "repo": "elsewhere",
-      "sourceType": "event",
-      "sourceUrl": "https://github.com/HarzerHeribert/elsewhere",
-      "sourceVisibility": "public"
-    },
-    {
       "at": "2026-11-09T18:46:13Z",
       "id": "26852441366",
       "kind": "delete",
@@ -136,15 +127,6 @@
       "sourceVisibility": "public"
     },
     {
-      "at": "2026-11-10T02:18:52Z",
-      "id": "26806920312",
-      "kind": "push",
-      "repo": "elsewhere",
-      "sourceType": "event",
-      "sourceUrl": "https://github.com/HarzerHeribert/elsewhere",
-      "sourceVisibility": "public"
-    },
-    {
       "at": "2026-11-10T09:05:42Z",
       "id": "26809067056",
       "kind": "push",
@@ -172,44 +154,8 @@
       "sourceVisibility": "public"
     },
     {
-      "at": "2026-11-10T09:45:39Z",
-      "id": "26797683330",
-      "kind": "push",
-      "repo": "elsewhere",
-      "sourceType": "event",
-      "sourceUrl": "https://github.com/HarzerHeribert/elsewhere",
-      "sourceVisibility": "public"
-    },
-    {
-      "at": "2026-11-10T09:45:41Z",
-      "id": "26797686794",
-      "kind": "delete",
-      "repo": "elsewhere",
-      "sourceType": "event",
-      "sourceUrl": "https://github.com/HarzerHeribert/elsewhere",
-      "sourceVisibility": "public"
-    },
-    {
-      "at": "2026-11-10T10:15:39Z",
-      "id": "26801024297",
-      "kind": "create",
-      "repo": "elsewhere",
-      "sourceType": "event",
-      "sourceUrl": "https://github.com/HarzerHeribert/elsewhere",
-      "sourceVisibility": "public"
-    },
-    {
       "at": "2026-11-10T10:17:51Z",
       "id": "26826130657",
-      "kind": "push",
-      "repo": "elsewhere",
-      "sourceType": "event",
-      "sourceUrl": "https://github.com/HarzerHeribert/elsewhere",
-      "sourceVisibility": "public"
-    },
-    {
-      "at": "2026-11-10T11:25:28Z",
-      "id": "26804484568",
       "kind": "push",
       "repo": "elsewhere",
       "sourceType": "event",
@@ -223,15 +169,6 @@
       "repo": "elsewhere",
       "sourceType": "event",
       "sourceUrl": "https://github.com/HarzerHeribert/elsewhere",
-      "sourceVisibility": "public"
-    },
-    {
-      "at": "2026-11-10T11:25:37Z",
-      "id": "26804501070",
-      "kind": "push",
-      "repo": "claude-modpack",
-      "sourceType": "event",
-      "sourceUrl": "https://github.com/HarzerHeribert/claude-modpack",
       "sourceVisibility": "public"
     },
     {
@@ -2638,6 +2575,24 @@
       "sourceVisibility": "public"
     },
     {
+      "at": "2026-11-18T17:57:56Z",
+      "id": "27703380884",
+      "kind": "push",
+      "repo": "Tasktap",
+      "sourceType": "event",
+      "sourceUrl": "https://github.com/HarzerHeribert/Tasktap",
+      "sourceVisibility": "public"
+    },
+    {
+      "at": "2026-11-18T22:16:23Z",
+      "id": "27733817822",
+      "kind": "push",
+      "repo": "Tasktap",
+      "sourceType": "event",
+      "sourceUrl": "https://github.com/HarzerHeribert/Tasktap",
+      "sourceVisibility": "public"
+    },
+    {
       "at": "2026-11-18T23:50:51Z",
       "id": "27582587336",
       "kind": "push",
@@ -2649,6 +2604,15 @@
     {
       "at": "2026-11-19T00:49:20Z",
       "id": "27684329706",
+      "kind": "push",
+      "repo": "Tasktap",
+      "sourceType": "event",
+      "sourceUrl": "https://github.com/HarzerHeribert/Tasktap",
+      "sourceVisibility": "public"
+    },
+    {
+      "at": "2026-11-19T01:09:55Z",
+      "id": "27729112533",
       "kind": "push",
       "repo": "Tasktap",
       "sourceType": "event",
@@ -2674,6 +2638,15 @@
       "sourceVisibility": "public"
     },
     {
+      "at": "2026-11-19T07:39:33Z",
+      "id": "27720574984",
+      "kind": "push",
+      "repo": "Tasktap",
+      "sourceType": "event",
+      "sourceUrl": "https://github.com/HarzerHeribert/Tasktap",
+      "sourceVisibility": "public"
+    },
+    {
       "at": "2026-11-19T10:06:31Z",
       "id": "27639961707",
       "kind": "push",
@@ -2690,9 +2663,36 @@
       "sourceType": "event",
       "sourceUrl": "https://github.com/HarzerHeribert/Tasktap",
       "sourceVisibility": "public"
+    },
+    {
+      "at": "2026-11-19T20:43:08Z",
+      "id": "27717433617",
+      "kind": "push",
+      "repo": "Tasktap",
+      "sourceType": "event",
+      "sourceUrl": "https://github.com/HarzerHeribert/Tasktap",
+      "sourceVisibility": "public"
+    },
+    {
+      "at": "2026-11-19T22:45:58Z",
+      "id": "27730661363",
+      "kind": "push",
+      "repo": "Tasktap",
+      "sourceType": "event",
+      "sourceUrl": "https://github.com/HarzerHeribert/Tasktap",
+      "sourceVisibility": "public"
+    },
+    {
+      "at": "2026-11-20T07:53:01Z",
+      "id": "27722710854",
+      "kind": "push",
+      "repo": "Tasktap",
+      "sourceType": "event",
+      "sourceUrl": "https://github.com/HarzerHeribert/Tasktap",
+      "sourceVisibility": "public"
     }
   ],
-  "generated": "2026-11-20T05:26:46Z",
+  "generated": "2026-11-20T17:26:10Z",
   "releases": [
     {
       "at": "2026-09-06T05:03:01Z",
@@ -3683,6 +3683,15 @@
       "sourceUrl": "https://github.com/HarzerHeribert/sterna/releases/tag/v0.1.0-pre.78",
       "sourceVisibility": "public",
       "tag": "v0.1.0-pre.78"
+    },
+    {
+      "at": "2026-11-20T06:38:16Z",
+      "id": "452350881",
+      "repo": "sterna",
+      "sourceType": "release",
+      "sourceUrl": "https://github.com/HarzerHeribert/sterna/releases/tag/v0.1.0-pre.79",
+      "sourceVisibility": "public",
+      "tag": "v0.1.0-pre.79"
     }
   ],
   "renderer": "1.0.0",
@@ -3769,7 +3778,7 @@
       },
       "name": "HarzerHeribert",
       "primaryLanguage": "Python",
-      "pushedAt": "2026-11-19T17:26:37Z",
+      "pushedAt": "2026-11-20T05:27:04Z",
       "sourceType": "repository",
       "sourceUrl": "https://github.com/HarzerHeribert/HarzerHeribert",
       "sourceVisibility": "public",
@@ -3829,7 +3838,7 @@
       },
       "name": "sterna",
       "primaryLanguage": "Rust",
-      "pushedAt": "2026-11-19T06:31:06Z",
+      "pushedAt": "2026-11-20T06:30:18Z",
       "sourceType": "repository",
       "sourceUrl": "https://github.com/HarzerHeribert/sterna",
       "sourceVisibility": "public",
@@ -3865,7 +3874,7 @@
       },
       "name": "Tasktap",
       "primaryLanguage": "JavaScript",
-      "pushedAt": "2026-11-20T05:14:39Z",
+      "pushedAt": "2026-11-20T15:39:58Z",
       "sourceType": "repository",
       "sourceUrl": "https://github.com/HarzerHeribert/Tasktap",
       "sourceVisibility": "public",
@@ -3900,7 +3909,7 @@
       ]
     }
   ],
-  "revision": "07da2ce2ee0387ce5a4cf9de846728afc09d4731",
+  "revision": "6fb878e0d0972f3b70508ceae6b79f6fe74a88ae",
   "schema": 1,
   "sources": [
     {
@@ -3911,7 +3920,7 @@
     },
     {
       "authentication": "none",
-      "sha256": "335c5d6600dd6a15553772e27901afeb03ade63b6b35fde80bbbfb7f1bc30965",
+      "sha256": "80420919b5c39401a9ffe45daaaff291b9c11b141347e170c20e03ae59c19ce4",
       "status": 200,
       "url": "https://api.github.com/users/HarzerHeribert/repos?type=owner&per_page=100&page=1"
     },
@@ -3989,7 +3998,7 @@
     },
     {
       "authentication": "none",
-      "sha256": "885c5ca745a3e3199d710a34862b8ff5271e5004c77d8c941e1304c182e3f3d5",
+      "sha256": "6c8b488c2db4623bde0a0866ce1d2843680ca35e8a40996a23923274df839444",
       "status": 200,
       "url": "https://api.github.com/repos/HarzerHeribert/HarzerHeribert"
     },
@@ -4043,7 +4052,7 @@
     },
     {
       "authentication": "none",
-      "sha256": "0a35f19d731ec7a1b9be0c5b8a3f0d88132b2c1b7f4e44cc28e826b8d381db29",
+      "sha256": "f4237ca13baa974ecfb71496f8ec2729dd6715c310e54cdcca5722ef6e5f692c",
       "status": 200,
       "url": "https://api.github.com/repos/HarzerHeribert/sterna"
     },
@@ -4055,13 +4064,13 @@
     },
     {
       "authentication": "none",
-      "sha256": "9a51699527e0039e84f9e55e17946f81ff7d532f609b06f1a5a70a54d7813327",
+      "sha256": "e60ef0ba66ec92973a6de66608f4761c582274a76ef74fbfa12bededcc43a722",
       "status": 200,
       "url": "https://api.github.com/repos/HarzerHeribert/sterna/releases?per_page=100&page=1"
     },
     {
       "authentication": "none",
-      "sha256": "e1c93777a70444c447e66f2c35d103b2324108507b95d3233b3d60f6670656c7",
+      "sha256": "0d8abd67fb6e01ce185d13b0cf018c1e814445ec592a76d8b260f0aff059aecb",
       "status": 200,
       "url": "https://api.github.com/repos/HarzerHeribert/Tasktap"
     },
@@ -4097,19 +4106,19 @@
     },
     {
       "authentication": "none",
-      "sha256": "638dd715dc62090d84b965bfd7bf2e32c7f1cc735c9e8523cb4533357b904fe2",
+      "sha256": "a00f59ef1799b4a4162bf8085f5f39cdb441f87d3095caa15131320262f26e35",
       "status": 200,
       "url": "https://api.github.com/users/HarzerHeribert/events/public?per_page=100&page=1"
     },
     {
       "authentication": "none",
-      "sha256": "2f675b2d1e49f86481ec750d8ddf963a6b3b4830675f61a708cf067a4c4d1433",
+      "sha256": "177af0666121cfb3752e0550bbadf9c9f11777fc38f581511c0c8ba4e9fb1fd4",
       "status": 200,
       "url": "https://api.github.com/users/HarzerHeribert/events/public?per_page=100&page=2"
     },
     {
       "authentication": "none",
-      "sha256": "1bb88dfe372abde92fbdac8bbb6a024a55d9b2f5979fe01616088583dbee3be1",
+      "sha256": "db26e99cb44f46e2739a29182ce9b6b3c831e4f59365eee94cc351dea9e507e1",
       "status": 200,
       "url": "https://api.github.com/users/HarzerHeribert/events/public?per_page=100&page=3"
     }
